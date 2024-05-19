@@ -106,17 +106,7 @@
     </div>
 </section>
 
-<div id="custom-html-2t"><!-- Type valid HTML here -->
-
-<!-- HTML Part -->
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-<p>
+<div id="custom-html-2t"><p>
   Mjolnir provides an extensive and continually expanding collection of software and scientific tools, with over <span id="toolCount">...</span> currently installed and accessible. If users will need specific tools or databases not yet present on Mjolnir, we will strive to accommodate their requests.
 </p>
 
@@ -124,7 +114,7 @@
 <script>
   async function fetchAirtableData() {
     const accessToken = 'patg3FSjZdjZIHAx8.827546930675cfa333a4c209803f1bd7816ef08766c0a935806018323a1d4b79'; // Replace with your actual access token
-    const baseId = 'Mjolnir'; // Replace with your actual base ID
+    const baseId = 'YOUR_BASE_ID'; // Replace with your actual base ID
     const tableName = 'Software'; // Replace with your actual table name
     const url = `https://api.airtable.com/v0/${baseId}/${tableName}`;
 
@@ -134,6 +124,10 @@
           Authorization: `Bearer ${accessToken}`
         }
       });
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
 
       const data = await response.json();
       const numberOfTools = data.records.length;
@@ -145,6 +139,7 @@
 
   document.addEventListener('DOMContentLoaded', fetchAirtableData);
 </script>
+
 </div>
 
 

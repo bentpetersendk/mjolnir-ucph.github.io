@@ -44,10 +44,10 @@
   <section data-bs-version="5.1" class="menu menu2 cid-sFCw1qGFAI" once="menu" id="menu2-2r">
     
     <nav class="navbar navbar-dropdown navbar-expand-lg">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-brand">
                 
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-7" href="index.html">Mjolnir</a></span>
+                
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
@@ -58,10 +58,10 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">Home</a></li>
+                <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="PI_area.html">PI Area</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="about.html">About</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="Hardware.html">Hardware</a></li>
                     <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="software.html">Software</a>
-                    </li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="databases.html">Databases</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="knowledgebase.html">Knowledgebase</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139735-new-user-request">Account request</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="https://mjolnirucph-help.freshdesk.com/support/home" target="_blank">Support ticket</a></li></ul>
+                    </li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="disruptions.html">Disruptions</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="databases.html">Databases</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="knowledgebase.html">Knowledgebase</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139735-new-user-request">Account request</a></li><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="https://mjolnirucph-help.freshdesk.com/support/home" target="_blank">Support ticket</a></li></ul>
                 <div class="icons-menu">
                     <a class="iconfont-wrapper" href="https://discord.gg/9p6dWUMd" target="_blank">
                         <span class="p-2 mbr-iconfont socicon-discord socicon"></span>
@@ -106,39 +106,48 @@
     </div>
 </section>
 
-<div id="custom-html-2t"><p>
-  Mjolnir provides an extensive and continually expanding collection of software and scientific tools, with over <span id="toolCount">...</span> currently installed and accessible. If users will need specific tools or databases not yet present on Mjolnir, we will strive to accommodate their requests.
-</p>
+<div id="custom-html-2t">
 
-<!-- JavaScript Part -->
-<script>
-  async function fetchAirtableData() {
-    const accessToken = 'patg3FSjZdjZIHAx8.827546930675cfa333a4c209803f1bd7816ef08766c0a935806018323a1d4b79'; // Replace with your actual access token
-    const baseId = 'Mjolnir'; // Replace with your actual base ID
-    const tableName = 'Software'; // Replace with your actual table name
-    const url = `https://api.airtable.com/v0/${baseId}/${tableName}`;
 
-    try {
-      const response = await fetch(url, {
-        headers: {
-          Authorization: `Bearer ${accessToken}`
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mjolnir Tools</title>
+
+
+  <p>
+    Mjolnir provides an extensive and continually expanding collection of software and scientific tools, with over <span id="toolCount">...</span> currently installed and accessible. If users will need specific tools or databases not yet present on Mjolnir, we will strive to accommodate their requests.
+  </p>
+
+  <!-- JavaScript Part -->
+  <script>
+    async function fetchAirtableData() {
+      const accessToken = 'patg3FSjZdjZIHAx8.827546930675cfa333a4c209803f1bd7816ef08766c0a935806018323a1d4b79'; // Replace with your actual access token
+      const baseId = 'app0YI6HJDQGmtIru'; // Replace with your actual base ID
+      const tableName = 'tbln3KTvwPBZdvGaK'; // Replace with your actual table name
+      const url = `https://api.airtable.com/v0/${baseId}/${tableName}`;
+
+      try {
+        const response = await fetch(url, {
+          headers: {
+            Authorization: `Bearer ${accessToken}`
+          }
+        });
+
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
         }
-      });
 
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
+        const data = await response.json();
+        const numberOfTools = data.records.length;
+        document.getElementById('toolCount').innerText = numberOfTools;
+      } catch (error) {
+        console.error('Error fetching data from Airtable:', error);
       }
-
-      const data = await response.json();
-      const numberOfTools = data.records.length;
-      document.getElementById('toolCount').innerText = numberOfTools;
-    } catch (error) {
-      console.error('Error fetching data from Airtable:', error);
     }
-  }
 
-  document.addEventListener('DOMContentLoaded', fetchAirtableData);
-</script>
+    document.addEventListener('DOMContentLoaded', fetchAirtableData);
+  </script>
+
 
 </div>
 

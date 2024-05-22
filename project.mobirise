@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "disruptions.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -16712,7 +16712,7 @@
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/app0YI6HJDQGmtIru/shrpCmtBZSVAh1CU4?viewControls=on\" frameborder=\"0\" onmousewheel=\"\" width=\"75%\" height=\"533\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
+          "_customHTML": "<!-- Type valid HTML here -->\n\n<iframe class=\"airtable-embed\" src=\"https://airtable.com/embed/app0YI6HJDQGmtIru/shrpCmtBZSVAh1CU4?layout=card&amp;viewControls=on\" frameborder=\"0\" onmousewheel=\"\" width=\"75%\" height=\"533\" style=\"background: transparent; border: 1px solid #ccc;\"></iframe>",
           "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
           "alias": "code-editor",
           "_tags": [

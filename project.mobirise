@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "Usage_Statistics.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -16726,11 +16726,11 @@
         }
       ]
     },
-    "Usage Statistics.html": {
+    "Usage_Statistics.html": {
       "settings": {
         "title": "Usage Statistics",
         "order": "4",
-        "meta_descr": "Usage statistics since 2024-06-01"
+        "meta_descr": "Discover up-to-date statistics from the SLURM job scheduling system, extracted nightly to track performance and resource usage across all jobs. This page provides real-time insights into cluster activity, job counts, average elapsed time, and system resource consumption since June 2024 at the cluster Mjolnir. SLURM job statistics, real-time cluster monitoring, HPC performance metrics, SLURM accounting database, job scheduling system, SLURM resource tracking, SLURM elapsed time, high-performance computing, HPC optimization, SLURM system activity, job resource usage, cluster efficiency metrics."
       },
       "components": [
         {

@@ -20,16 +20,18 @@ This file records the initial v2 styling decisions. It is not a finished visual 
 
 ## Initial Tokens
 
-- Page background: `#f7f8fb`
+- Page background: `#f8fbff`
 - Surface: `#ffffff`
-- Text: `#172033`
-- Muted text: `#57657a`
-- Link: `#2454a6`
-- Border: `#dde3ed`
+- Text: `#141c3a`
+- Muted text: `#667089`
+- Primary cyan: `#00b8ff`
+- Deep blue: `#10328f`
+- Accent magenta: `#ff2bbd`
+- Border: `#dce6f2`
 - Radius: `6px` for navigation controls, `8px` for cards and notes.
 
 ## Decisions
 
-- Keep styling modest during setup because redesign is a later task.
+- Use the Mjolnir hammer artwork as the palette reference: white base, deep blue structure, cyan primary glow, and magenta highlight accents.
 - Avoid production CSS imports so v2 can evolve independently.
 - Use semantic HTML first, then add behavior and richer components later.

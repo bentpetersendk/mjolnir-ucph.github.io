@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Environment Modules",
+    "category": "Core",
+    "path": "module avail",
+    "owner": "Mjolnir Admin",
+    "status": "current"
+  },
+  {
+    "name": "Conda",
+    "category": "Environment",
+    "path": "User-managed environments",
+    "owner": "User",
+    "status": "current"
+  },
+  {
+    "name": "BioRender",
+    "category": "External service",
+    "path": "Request-based access",
+    "owner": "Mjolnir Admin",
+    "status": "current"
+  }
+]

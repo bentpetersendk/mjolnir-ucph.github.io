@@ -1,0 +1,914 @@
+[
+  {
+    "title": "What is Mjolnir?",
+    "description": "Mjolnir is the Globe Institute high-performance computing cluster for research workloads associated with the Mjolnir consortium.",
+    "category": "Getting Started",
+    "categorySlug": "getting-started",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "about",
+      "overview",
+      "cluster"
+    ],
+    "url": "getting-started/what-is-mjolnir/",
+    "body": "Mjolnir is the Globe Institute high-performance computing cluster for research workloads associated with the Mjolnir consortium. Use Mjolnir for batch computation, software environments, shared scientific databases, and data analysis that should run on compute nodes rather than on a laptop or login node. The new portal is the canonical documentation source. Freshdesk is reserved for tickets, ReadTheDocs is superseded by this portal, and website documentation summaries should link here."
+  },
+  {
+    "title": "Who can use Mjolnir?",
+    "description": "Access is restricted to UCPH employees or external collaborators associated with participating principal investigators.",
+    "category": "Getting Started",
+    "categorySlug": "getting-started",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "eligibility",
+      "pi",
+      "collaborators"
+    ],
+    "url": "getting-started/who-can-use-mjolnir/",
+    "body": "Access is restricted to UCPH employees or external collaborators associated with participating principal investigators. New users should confirm PI/project affiliation before requesting access. External collaborators may need additional approval and KU identity prerequisites. If you are unsure whether you are eligible, ask your PI or submit a support ticket before starting a technical setup."
+  },
+  {
+    "title": "New user checklist",
+    "description": "1. Confirm eligibility and PI/project affiliation.",
+    "category": "Getting Started",
+    "categorySlug": "getting-started",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "onboarding",
+      "first login"
+    ],
+    "url": "getting-started/new-user-checklist/",
+    "body": "1. Confirm eligibility and PI/project affiliation. 2. Request a Mjolnir account. 3. Install and connect through KU VPN. 4. SSH to mjolnirgate with your KU-ID. 5. Review login node rules before running commands. 6. Submit a small test Slurm job. 7. Learn where your project folder and shared databases are located."
+  },
+  {
+    "title": "Submit your first job",
+    "description": "Run computation through Slurm rather than directly on the login node.",
+    "category": "Getting Started",
+    "categorySlug": "getting-started",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "sbatch",
+      "first job",
+      "slurm"
+    ],
+    "url": "getting-started/first-job/",
+    "body": "Run computation through Slurm rather than directly on the login node. Create a small script, submit it with `sbatch`, then inspect the queue with `squeue` and the result files when the job completes. Start with conservative resources. Request only the CPUs, memory, runtime, and GPU resources you need."
+  },
+  {
+    "title": "Login nodes vs compute nodes",
+    "description": "Use login nodes for editing, file movement, job submission, and light inspection.",
+    "category": "Getting Started",
+    "categorySlug": "getting-started",
+    "type": "policy",
+    "status": "current",
+    "tags": [
+      "login node",
+      "compute node"
+    ],
+    "url": "getting-started/login-vs-compute-nodes/",
+    "body": "Use login nodes for editing, file movement, job submission, and light inspection. Do not run heavy computation on mjolnirgate or other login nodes. Heavy work must be submitted to Slurm. This rule protects every user by keeping the shared entrance node responsive."
+  },
+  {
+    "title": "Request access",
+    "description": "Use the account request workflow when a new user needs access to Mjolnir.",
+    "category": "Accounts & Access",
+    "categorySlug": "accounts-access",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "new user",
+      "account",
+      "request"
+    ],
+    "url": "accounts-access/request-access/",
+    "body": "Use the account request workflow when a new user needs access to Mjolnir. The request should identify the user, PI/project affiliation, contact email, and any collaborator status that affects eligibility. After approval, the user should follow the new user checklist and first-login instructions."
+  },
+  {
+    "title": "VPN and SSH access",
+    "description": "A KU VPN connection using Cisco AnyConnect is required before SSH login to Mjolnir.",
+    "category": "Accounts & Access",
+    "categorySlug": "accounts-access",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "vpn",
+      "ssh",
+      "mjolnirgate",
+      "cisco anyconnect"
+    ],
+    "url": "accounts-access/vpn-ssh-access/",
+    "body": "A KU VPN connection using Cisco AnyConnect is required before SSH login to Mjolnir. Connect to the KU VPN, open a terminal, and log in with `ssh <KU-ID>@mjolnirgate.unicph.domain`. Replace `<KU-ID>` with your own KU user ID. Your password is the password associated with your KU-ID. If VPN works but SSH login fails, create a support ticket. VPN client problems should go to KU-IT."
+  },
+  {
+    "title": "SSH shortcuts, keys, and GitHub",
+    "description": "Use an SSH config entry to avoid retyping the full Mjolnir login command.",
+    "category": "Accounts & Access",
+    "categorySlug": "accounts-access",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "ssh",
+      "keys",
+      "github"
+    ],
+    "url": "accounts-access/ssh-shortcuts-keys/",
+    "body": "Use an SSH config entry to avoid retyping the full Mjolnir login command. SSH keys can also be used for GitHub operations from Mjolnir. Generate keys carefully and add only public keys to external services. Keep SSH credentials private. Never share private keys in tickets, chat, or documentation."
+  },
+  {
+    "title": "Primary email and communication preferences",
+    "description": "Keep your primary email current so Mjolnir maintenance notices, policy changes, and action-required messages reach you.",
+    "category": "Accounts & Access",
+    "categorySlug": "accounts-access",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "email",
+      "communication"
+    ],
+    "url": "accounts-access/email-preferences/",
+    "body": "Keep your primary email current so Mjolnir maintenance notices, policy changes, and action-required messages reach you. If your communication preference or primary address changes, use the account maintenance request workflow. This page supersedes the old short Freshdesk and ReadTheDocs articles on primary email changes."
+  },
+  {
+    "title": "Project folders",
+    "description": "Project folders are the primary home for project data on Mjolnir.",
+    "category": "Storage",
+    "categorySlug": "storage",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "project folder",
+      "storage"
+    ],
+    "url": "storage/project-folders/",
+    "body": "Project folders are the primary home for project data on Mjolnir. Store shared project data in the correct project location rather than making duplicate copies in personal areas. Project ownership, cleanup, and long-term responsibility should be clear before large data sets are imported."
+  },
+  {
+    "title": "Data transfer",
+    "description": "Use `rsync`, `scp`, `sftp`, FileZilla, or PuTTY depending on platform and workflow.",
+    "category": "Storage",
+    "categorySlug": "storage",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "rsync",
+      "sftp",
+      "filezilla",
+      "putty",
+      "filetransfer"
+    ],
+    "url": "storage/data-transfer/",
+    "body": "Use `rsync`, `scp`, `sftp`, FileZilla, or PuTTY depending on platform and workflow. Large transfers should be planned, verified with checksums where possible, and run in a way that does not overload login nodes. Use the filetransfer QoS only for data migration and transfer workflows where it is appropriate."
+  },
+  {
+    "title": "Snapshot backup",
+    "description": "Snapshots provide recovery points for supported storage locations.",
+    "category": "Storage",
+    "categorySlug": "storage",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "backup",
+      "snapshot",
+      "retention"
+    ],
+    "url": "storage/backup-snapshots/",
+    "body": "Snapshots provide recovery points for supported storage locations. Snapshots are not a substitute for project-level data management, reproducibility, or external archiving where required. Document what is backed up, what is not backed up, and who to contact before assuming a deleted file can be recovered."
+  },
+  {
+    "title": "Storage cost, quota, and cleanup",
+    "description": "Storage should be treated as a shared research resource with clear project ownership.",
+    "category": "Storage",
+    "categorySlug": "storage",
+    "type": "policy",
+    "status": "current",
+    "tags": [
+      "quota",
+      "cost",
+      "cleanup"
+    ],
+    "url": "storage/storage-policy/",
+    "body": "Storage should be treated as a shared research resource with clear project ownership. Avoid duplicate database and data copies. Use shared repositories when available. Old Mjolnir1 migration notices are archived; current storage policy should live on this canonical page."
+  },
+  {
+    "title": "Slurm basics",
+    "description": "Slurm schedules computational work on Mjolnir. Users submit jobs, request resources, monitor state, and review accounting after completion.",
+    "category": "Slurm",
+    "categorySlug": "slurm",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "slurm",
+      "scheduler"
+    ],
+    "url": "slurm/slurm-basics/",
+    "body": "Slurm schedules computational work on Mjolnir. Users submit jobs, request resources, monitor state, and review accounting after completion. The most common commands are `sbatch`, `srun`, `squeue`, `scontrol`, `sacct`, and `scancel`. Use Slurm for computation. Login nodes are not compute nodes."
+  },
+  {
+    "title": "Partitions, QoS, and fairshare",
+    "description": "Partitions define where jobs can run. QoS defines scheduling behavior and limits. Fairshare influences priority based on usage.",
+    "category": "Slurm",
+    "categorySlug": "slurm",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "partition",
+      "qos",
+      "fairshare",
+      "priority"
+    ],
+    "url": "slurm/partitions-qos-fairshare/",
+    "body": "Partitions define where jobs can run. QoS defines scheduling behavior and limits. Fairshare influences priority based on usage. Current queue/QoS guidance supersedes the historical email announcements. Users should choose the narrowest suitable partition/QoS and request realistic resources to improve scheduling."
+  },
+  {
+    "title": "Queue waiting times and pending reasons",
+    "description": "A pending job is not necessarily broken. It may be waiting for priority, resources, limits, or dependencies.",
+    "category": "Slurm",
+    "categorySlug": "slurm",
+    "type": "troubleshooting",
+    "status": "current",
+    "tags": [
+      "pending",
+      "queue",
+      "priority"
+    ],
+    "url": "slurm/queue-waiting-times/",
+    "body": "A pending job is not necessarily broken. It may be waiting for priority, resources, limits, or dependencies. Use `squeue` and `scontrol show job <jobid>` to inspect the reason. If many jobs wait unexpectedly, check fairshare, requested runtime, memory, partition, QoS, and maintenance announcements."
+  },
+  {
+    "title": "Memory allocation guide",
+    "description": "Request enough memory for the job, but avoid over-requesting because it can increase waiting time.",
+    "category": "Slurm",
+    "categorySlug": "slurm",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "memory",
+      "oom",
+      "mem"
+    ],
+    "url": "slurm/memory-allocation/",
+    "body": "Request enough memory for the job, but avoid over-requesting because it can increase waiting time. Use `--mem` for total memory per node or `--mem-per-cpu` when memory scales with CPU count. If a job is killed for memory, review logs and accounting before increasing the request."
+  },
+  {
+    "title": "Lazy queue and low-priority work",
+    "description": "The lazy queue is intended for low-priority workloads that can wait longer in exchange for using otherwise idle resources.",
+    "category": "Slurm",
+    "categorySlug": "slurm",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "lazyqueue",
+      "lazy",
+      "low priority"
+    ],
+    "url": "slurm/lazyqueue/",
+    "body": "The lazy queue is intended for low-priority workloads that can wait longer in exchange for using otherwise idle resources. Use lazy scheduling for opportunistic work, exploratory batches, and jobs that are not time critical. This extracts durable guidance from the 2026 lazyqueue announcement."
+  },
+  {
+    "title": "Submitting jobs with sbatch",
+    "description": "Create a shell script with `#SBATCH` resource requests and the commands your job should run.",
+    "category": "Job Submission",
+    "categorySlug": "job-submission",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "sbatch",
+      "batch"
+    ],
+    "url": "job-submission/submitting-jobs/",
+    "body": "Create a shell script with `#SBATCH` resource requests and the commands your job should run. Submit it with `sbatch script.sh`. Slurm returns a job ID that you can use for monitoring and cancellation. Write output and error logs to predictable paths so failed jobs can be diagnosed."
+  },
+  {
+    "title": "Interactive jobs with srun",
+    "description": "Use interactive jobs for short debugging sessions and software tests that require compute resources.",
+    "category": "Job Submission",
+    "categorySlug": "job-submission",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "srun",
+      "interactive"
+    ],
+    "url": "job-submission/interactive-jobs/",
+    "body": "Use interactive jobs for short debugging sessions and software tests that require compute resources. Request only the resources and time needed for the interactive session. Do not use the login node as a substitute for an interactive compute allocation."
+  },
+  {
+    "title": "Job arrays",
+    "description": "Job arrays are useful when the same workflow should run across many inputs.",
+    "category": "Job Submission",
+    "categorySlug": "job-submission",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "array",
+      "batch"
+    ],
+    "url": "job-submission/job-arrays/",
+    "body": "Job arrays are useful when the same workflow should run across many inputs. Use the Slurm array task ID to select input files or parameter sets. Throttle large arrays where appropriate so they do not overwhelm shared resources."
+  },
+  {
+    "title": "Job template library",
+    "description": "Keep copy-paste job templates for common Mjolnir workloads in this section.",
+    "category": "Job Submission",
+    "categorySlug": "job-submission",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "templates",
+      "examples"
+    ],
+    "url": "job-submission/job-templates/",
+    "body": "Keep copy-paste job templates for common Mjolnir workloads in this section. Templates should include CPU, memory, runtime, log output, module loading, and expected input/output patterns. Every template should prefer safe defaults over maximum resource requests."
+  },
+  {
+    "title": "Monitoring jobs",
+    "description": "Use `squeue` to inspect queued/running jobs, `scontrol` for detailed job state, and `sacct` for completed job accounting.",
+    "category": "Monitoring Jobs",
+    "categorySlug": "monitoring-jobs",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "squeue",
+      "scontrol",
+      "sacct"
+    ],
+    "url": "monitoring-jobs/monitoring-jobs/",
+    "body": "Use `squeue` to inspect queued/running jobs, `scontrol` for detailed job state, and `sacct` for completed job accounting. Monitoring helps distinguish normal waiting from resource mismatch, policy limits, or failed jobs. Keep the job ID from `sbatch`; it is the handle for later inspection."
+  },
+  {
+    "title": "Canceling jobs",
+    "description": "Use `scancel <jobid>` to cancel a specific job.",
+    "category": "Monitoring Jobs",
+    "categorySlug": "monitoring-jobs",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "scancel",
+      "cancel"
+    ],
+    "url": "monitoring-jobs/canceling-jobs/",
+    "body": "Use `scancel <jobid>` to cancel a specific job. Use caution when canceling multiple jobs or arrays. Confirm job IDs before acting. Cancel work that is no longer needed to free resources for other users."
+  },
+  {
+    "title": "Cluster utilization and statistics",
+    "description": "Cluster utilization and job statistics remain operational dashboards on the main website.",
+    "category": "Monitoring Jobs",
+    "categorySlug": "monitoring-jobs",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "utilization",
+      "statistics"
+    ],
+    "url": "monitoring-jobs/cluster-utilization/",
+    "body": "Cluster utilization and job statistics remain operational dashboards on the main website. The documentation portal should explain how to interpret those dashboards and link to the live pages. Historical usage pages should not replace live monitoring or job-specific Slurm commands."
+  },
+  {
+    "title": "Modules and Conda environments",
+    "description": "Mjolnir provides software through environment modules and user-managed environments such as Conda.",
+    "category": "Software",
+    "categorySlug": "software",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "modules",
+      "conda",
+      "software"
+    ],
+    "url": "software/modules-conda/",
+    "body": "Mjolnir provides software through environment modules and user-managed environments such as Conda. Use `module avail`, `module load`, and `module list` to discover and manage modules. Document software versions in job scripts to make analyses reproducible."
+  },
+  {
+    "title": "Software catalog",
+    "description": "The software catalog should list installed tools, versions, module names, license notes, owners, and request paths.",
+    "category": "Software",
+    "categorySlug": "software",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "catalog",
+      "bioinformatics",
+      "tools"
+    ],
+    "url": "software/software-catalog/",
+    "body": "The software catalog should list installed tools, versions, module names, license notes, owners, and request paths. The catalog is future-proofed as structured JSON so it can be rendered as a searchable table. Bioinformatics software should be grouped and tagged for discovery."
+  },
+  {
+    "title": "Request software",
+    "description": "Request new software when a required tool is not already available on Mjolnir.",
+    "category": "Software",
+    "categorySlug": "software",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "request",
+      "software"
+    ],
+    "url": "software/request-software/",
+    "body": "Request new software when a required tool is not already available on Mjolnir. Include software name, version, URL, license information, research purpose, and urgency. Software request workflow supersedes old duplicated Freshdesk and ReadTheDocs request pages."
+  },
+  {
+    "title": "BioRender access",
+    "description": "BioRender is handled as a software/account access topic rather than a core HPC procedure.",
+    "category": "Software",
+    "categorySlug": "software",
+    "type": "faq",
+    "status": "current",
+    "tags": [
+      "biorender",
+      "software"
+    ],
+    "url": "software/biorender/",
+    "body": "BioRender is handled as a software/account access topic rather than a core HPC procedure. Users should follow the current request path for CEH or eligible group access. Keep this page short and link to the relevant request form or support path."
+  },
+  {
+    "title": "Shared database repository",
+    "description": "Databases are centralized in shared locations to reduce duplicated storage and simplify updates.",
+    "category": "Databases",
+    "categorySlug": "databases",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "databases",
+      "shared repository"
+    ],
+    "url": "databases/database-overview/",
+    "body": "Databases are centralized in shared locations to reduce duplicated storage and simplify updates. Users should use the shared database repository instead of maintaining private duplicate copies whenever possible. Database documentation should describe where databases live, how to cite or version them, and how to request additions."
+  },
+  {
+    "title": "Request a database",
+    "description": "Request a new database when it is not already available in the shared repository.",
+    "category": "Databases",
+    "categorySlug": "databases",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "request",
+      "database"
+    ],
+    "url": "databases/request-database/",
+    "body": "Request a new database when it is not already available in the shared repository. Provide the database name, source URL, version, expected size, update needs, and project use case. Requests should be reviewed for storage impact and shared value."
+  },
+  {
+    "title": "Non-Mjolnir shared database access",
+    "description": "Some shared databases may be useful to non-Mjolnir users on related KU Research IT-hosted systems.",
+    "category": "Databases",
+    "categorySlug": "databases",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "database",
+      "access"
+    ],
+    "url": "databases/shared-database-access/",
+    "body": "Some shared databases may be useful to non-Mjolnir users on related KU Research IT-hosted systems. Access should be requested through the current approved workflow and must respect storage and permissions policy. This page consolidates Freshdesk access guidance and the Globe-wide database repository announcement."
+  },
+  {
+    "title": "Database catalog",
+    "description": "The database catalog should list database name, version, location, update cadence, owner, and access notes.",
+    "category": "Databases",
+    "categorySlug": "databases",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "catalog",
+      "database"
+    ],
+    "url": "databases/database-catalog/",
+    "body": "The database catalog should list database name, version, location, update cadence, owner, and access notes. The catalog is future-proofed as structured JSON so it can become a searchable table. Entries should distinguish current databases from deprecated or archived database snapshots."
+  },
+  {
+    "title": "GPU computing overview",
+    "description": "Use GPU resources for workloads that are designed to benefit from GPU acceleration, such as machine learning or GPU-enabled bioinformatics tools.",
+    "category": "GPU Computing",
+    "categorySlug": "gpu-computing",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "gpu",
+      "cuda",
+      "gpuqueue"
+    ],
+    "url": "gpu-computing/gpu-overview/",
+    "body": "Use GPU resources for workloads that are designed to benefit from GPU acceleration, such as machine learning or GPU-enabled bioinformatics tools. GPU jobs should request the GPU partition and only the number/type of GPUs needed. Check software/module compatibility before submitting large GPU workloads."
+  },
+  {
+    "title": "GPU job template",
+    "description": "A GPU job template should include GPU resource requests, CPU/memory requests, runtime, module loading, and logging.",
+    "category": "GPU Computing",
+    "categorySlug": "gpu-computing",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "gpu",
+      "sbatch",
+      "cuda"
+    ],
+    "url": "gpu-computing/gpu-job-template/",
+    "body": "A GPU job template should include GPU resource requests, CPU/memory requests, runtime, module loading, and logging. Start with a small validation job before launching long GPU workloads. Monitor GPU utilization to ensure the job benefits from GPU resources."
+  },
+  {
+    "title": "GPU troubleshooting",
+    "description": "Common GPU issues include CUDA/module mismatch, GPU memory exhaustion, poor utilization, and long queue waits.",
+    "category": "GPU Computing",
+    "categorySlug": "gpu-computing",
+    "type": "troubleshooting",
+    "status": "current",
+    "tags": [
+      "gpu",
+      "cuda",
+      "oom"
+    ],
+    "url": "gpu-computing/gpu-troubleshooting/",
+    "body": "Common GPU issues include CUDA/module mismatch, GPU memory exhaustion, poor utilization, and long queue waits. Check loaded modules, requested GPU resources, application logs, and scheduler state. If the problem is reproducible and resource requests look correct, include the job ID and script in a support ticket."
+  },
+  {
+    "title": "Login node policy",
+    "description": "Login nodes are shared entry points for editing, moving data, and submitting jobs.",
+    "category": "Policies",
+    "categorySlug": "policies",
+    "type": "policy",
+    "status": "current",
+    "tags": [
+      "login node",
+      "policy"
+    ],
+    "url": "policies/login-node-policy/",
+    "body": "Login nodes are shared entry points for editing, moving data, and submitting jobs. Heavy computation must be submitted to Slurm. Running heavy workloads on login nodes can degrade service for all users. Repeated misuse should be handled through support and PI/project-owner escalation."
+  },
+  {
+    "title": "Support scope",
+    "description": "Mjolnir support handles cluster access after VPN is working, Slurm/job issues, software/database requests, and storage/project folder questions.",
+    "category": "Policies",
+    "categorySlug": "policies",
+    "type": "policy",
+    "status": "current",
+    "tags": [
+      "support",
+      "ku-it",
+      "ticket"
+    ],
+    "url": "policies/support-scope/",
+    "body": "Mjolnir support handles cluster access after VPN is working, Slurm/job issues, software/database requests, and storage/project folder questions. KU-IT handles KU VPN client issues and general KU identity problems. Users should include job IDs, commands, error messages, and relevant paths when opening tickets."
+  },
+  {
+    "title": "Maintenance and disruption policy",
+    "description": "Current maintenance notices should live in News & Announcements and link to affected canonical docs.",
+    "category": "Policies",
+    "categorySlug": "policies",
+    "type": "policy",
+    "status": "current",
+    "tags": [
+      "maintenance",
+      "disruptions"
+    ],
+    "url": "policies/maintenance-policy/",
+    "body": "Current maintenance notices should live in News & Announcements and link to affected canonical docs. Disruptions should be visible from the portal and, where applicable, linked to live status or website pages. Past maintenance emails should move to archive after the event window closes."
+  },
+  {
+    "title": "Cannot log in",
+    "description": "First confirm that KU VPN is connected with the supported Cisco AnyConnect client.",
+    "category": "Troubleshooting",
+    "categorySlug": "troubleshooting",
+    "type": "troubleshooting",
+    "status": "current",
+    "tags": [
+      "vpn",
+      "ssh",
+      "login"
+    ],
+    "url": "troubleshooting/cannot-login/",
+    "body": "First confirm that KU VPN is connected with the supported Cisco AnyConnect client. Then confirm the SSH command, KU-ID, network, and password. Try a clean terminal session before changing configuration. If VPN works but Mjolnir login fails, submit a Mjolnir support ticket. If VPN itself fails, contact KU-IT."
+  },
+  {
+    "title": "Job is pending",
+    "description": "Pending jobs may be waiting for priority, resources, fairshare, QoS/partition limits, maintenance, or dependencies.",
+    "category": "Troubleshooting",
+    "categorySlug": "troubleshooting",
+    "type": "troubleshooting",
+    "status": "current",
+    "tags": [
+      "pending",
+      "queue",
+      "slurm"
+    ],
+    "url": "troubleshooting/job-pending/",
+    "body": "Pending jobs may be waiting for priority, resources, fairshare, QoS/partition limits, maintenance, or dependencies. Inspect the pending reason with Slurm commands before resubmitting. If a job appears stuck because of invalid resource requests, adjust the request rather than repeatedly submitting duplicates."
+  },
+  {
+    "title": "Job failed or was killed",
+    "description": "Check output and error files first. Then inspect completed job accounting with `sacct`.",
+    "category": "Troubleshooting",
+    "categorySlug": "troubleshooting",
+    "type": "troubleshooting",
+    "status": "current",
+    "tags": [
+      "failed",
+      "oom",
+      "exit code"
+    ],
+    "url": "troubleshooting/job-failed/",
+    "body": "Check output and error files first. Then inspect completed job accounting with `sacct`. Common causes include missing modules, wrong paths, insufficient memory, exceeded runtime, and application errors. When opening a support ticket, include job ID, script, output/error logs, and the command used to submit the job."
+  },
+  {
+    "title": "Perl locale warning",
+    "description": "The Perl locale warning usually indicates that shell locale variables reference a locale not configured in the environment.",
+    "category": "Troubleshooting",
+    "categorySlug": "troubleshooting",
+    "type": "troubleshooting",
+    "status": "current",
+    "tags": [
+      "perl",
+      "locale"
+    ],
+    "url": "troubleshooting/perl-locale-warning/",
+    "body": "The Perl locale warning usually indicates that shell locale variables reference a locale not configured in the environment. The issue is often cosmetic but can be confusing. Check locale variables and use a supported UTF-8 locale where possible. This page preserves the Freshdesk troubleshooting article in the new structure."
+  },
+  {
+    "title": "Accounts FAQ",
+    "description": "Who can request access? A: Users associated with participating PIs or approved collaborators.",
+    "category": "Frequently Asked Questions",
+    "categorySlug": "faq",
+    "type": "faq",
+    "status": "current",
+    "tags": [
+      "faq",
+      "accounts"
+    ],
+    "url": "faq/accounts-faq/",
+    "body": "Q: Who can request access? A: Users associated with participating PIs or approved collaborators. Q: Where do I request access? A: Use the account request workflow linked from Accounts & Access. Q: What if VPN fails? A: Contact KU-IT for VPN client issues; contact Mjolnir support if VPN works but SSH fails."
+  },
+  {
+    "title": "Slurm FAQ",
+    "description": "Why is my job pending? A: Check pending reason, fairshare, resources, and partition/QoS limits.",
+    "category": "Frequently Asked Questions",
+    "categorySlug": "faq",
+    "type": "faq",
+    "status": "current",
+    "tags": [
+      "faq",
+      "slurm"
+    ],
+    "url": "faq/slurm-faq/",
+    "body": "Q: Why is my job pending? A: Check pending reason, fairshare, resources, and partition/QoS limits. Q: Can I run computation on the login node? A: No, use Slurm. Q: How do I cancel a job? A: Use `scancel <jobid>`."
+  },
+  {
+    "title": "Storage and software FAQ",
+    "description": "Where should project data live? A: In the relevant project folder.",
+    "category": "Frequently Asked Questions",
+    "categorySlug": "faq",
+    "type": "faq",
+    "status": "current",
+    "tags": [
+      "faq",
+      "storage",
+      "software"
+    ],
+    "url": "faq/storage-software-faq/",
+    "body": "Q: Where should project data live? A: In the relevant project folder. Q: Are snapshots backups? A: Snapshots provide recovery points for supported locations but are not a complete data management plan. Q: How do I request software? A: Use the software request workflow and include version, source, license, and use case."
+  },
+  {
+    "title": "PI responsibilities",
+    "description": "PIs and project owners should understand who has access, what project data is stored, and who is responsible for cleanup and communication.",
+    "category": "Administration",
+    "categorySlug": "administration",
+    "type": "policy",
+    "status": "current",
+    "tags": [
+      "pi",
+      "project owner"
+    ],
+    "url": "administration/pi-responsibilities/",
+    "body": "PIs and project owners should understand who has access, what project data is stored, and who is responsible for cleanup and communication. Project ownership should be clear before adding users or importing large datasets. Administration guidance complements, but does not replace, technical user documentation."
+  },
+  {
+    "title": "User administration",
+    "description": "User administration covers adding users, updating account details, changing communication preferences, and removing access when needed.",
+    "category": "Administration",
+    "categorySlug": "administration",
+    "type": "guide",
+    "status": "current",
+    "tags": [
+      "users",
+      "administration"
+    ],
+    "url": "administration/user-administration/",
+    "body": "User administration covers adding users, updating account details, changing communication preferences, and removing access when needed. Administrative workflows should have clear request paths and auditability. Avoid maintaining duplicate instructions in Freshdesk and the documentation portal."
+  },
+  {
+    "title": "Documentation governance",
+    "description": "Every page needs an owner, review date, status, and content type.",
+    "category": "Administration",
+    "categorySlug": "administration",
+    "type": "reference",
+    "status": "current",
+    "tags": [
+      "governance",
+      "review"
+    ],
+    "url": "administration/content-governance/",
+    "body": "Every page needs an owner, review date, status, and content type. Pages past review date should be reported by CI and reviewed before they become stale. Announcements that change behavior must link to updated canonical docs."
+  },
+  {
+    "title": "Current announcements",
+    "description": "Current announcements should contain only active user-facing notices.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "announcement",
+    "status": "current",
+    "tags": [
+      "news",
+      "current"
+    ],
+    "url": "news-announcements/current-announcements/",
+    "body": "Current announcements should contain only active user-facing notices. Once an event passes or a change becomes standard behavior, move the announcement into archive and update the canonical documentation page. This page is intentionally sparse until the portal is connected to a real announcement workflow."
+  },
+  {
+    "title": "Release notes",
+    "description": "Release notes summarize documentation, policy, software, hardware, queue, and storage changes.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "announcement",
+    "status": "current",
+    "tags": [
+      "release notes",
+      "changelog"
+    ],
+    "url": "news-announcements/release-notes/",
+    "body": "Release notes summarize documentation, policy, software, hardware, queue, and storage changes. Use release notes for durable summaries. Use archive pages for original email text and historical context. Each release note should link to the canonical page that changed."
+  },
+  {
+    "title": "Historical archive",
+    "description": "Historical maintenance emails, presentations, migration notices, and dated announcements are preserved here for traceability.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive",
+      "historical"
+    ],
+    "url": "news-announcements/archive-index/",
+    "body": "Historical maintenance emails, presentations, migration notices, and dated announcements are preserved here for traceability. Archive content is searchable, but current documentation should outrank it. The archive should be clearly labeled so users do not follow old procedures accidentally."
+  },
+  {
+    "title": "2024-04-04 CEHall Section Meeting",
+    "description": "Presentation archive item from Freshdesk.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2024-04-04-cehall-section-meeting/",
+    "body": "Presentation archive item from Freshdesk. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2024-03-27 Important Updates on Mjolnir Maintenance and System Changes",
+    "description": "Historical maintenance notice. Durable policy should be reflected in current docs.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2024-03-27-important-updates-on-mjolnir-maintenance-and-system-changes/",
+    "body": "Historical maintenance notice. Durable policy should be reflected in current docs. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2024-04-11 Reminder: Important Updates on Mjolnir Maintenance and System Changes",
+    "description": "Historical reminder notice.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2024-04-11-reminder-important-updates-on-mjolnir-maintenance-and-system-changes/",
+    "body": "Historical reminder notice. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2024-06-27 Summer Vacation Notice and Support Ticket Information",
+    "description": "Historical support availability notice.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2024-06-27-summer-vacation-notice-and-support-ticket-information/",
+    "body": "Historical support availability notice. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2024-07-04 Scheduled Maintenance on Mjolnir",
+    "description": "Historical maintenance prewarning.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2024-07-04-scheduled-maintenance-on-mjolnir/",
+    "body": "Historical maintenance prewarning. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2025-01-15 Storage cost and closing of Mjolnir1",
+    "description": "Historical storage and migration communication.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2025-01-15-storage-cost-and-closing-of-mjolnir1/",
+    "body": "Historical storage and migration communication. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2025-02-14 Data Migration and Storage Transition Updates",
+    "description": "Historical migration communication.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2025-02-14-data-migration-and-storage-transition-updates/",
+    "body": "Historical migration communication. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2025-02-24 Accelerating Data Migration from Mjolnir1",
+    "description": "Historical migration communication.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2025-02-24-accelerating-data-migration-from-mjolnir1/",
+    "body": "Historical migration communication. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2025-02-28 Scheduled Maintenance and Important Changes",
+    "description": "Historical maintenance communication.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2025-02-28-scheduled-maintenance-and-important-changes/",
+    "body": "Historical maintenance communication. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2025-03-03 QoS and Partition Limits",
+    "description": "Historical queue/QoS announcement; current rules live in Slurm docs.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2025-03-03-qos-and-partition-limits/",
+    "body": "Historical queue/QoS announcement; current rules live in Slurm docs. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2025-05-24 Software Location, System Expansion, and Storage Reporting",
+    "description": "Historical system update.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2025-05-24-software-location-system-expansion-and-storage-reporting/",
+    "body": "Historical system update. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  },
+  {
+    "title": "2026-05-19 New low-priority lazyqueue",
+    "description": "Announcement preserved; current durable guidance lives in Slurm / Lazy queue.",
+    "category": "News & Announcements",
+    "categorySlug": "news-announcements",
+    "type": "archive",
+    "status": "archive",
+    "tags": [
+      "archive"
+    ],
+    "url": "news-announcements/2026-05-19-new-low-priority-lazyqueue/",
+    "body": "Announcement preserved; current durable guidance lives in Slurm / Lazy queue. This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page. Current operational guidance lives in the relevant category pages."
+  }
+]

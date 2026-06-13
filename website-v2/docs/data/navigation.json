@@ -1,0 +1,745 @@
+[
+  {
+    "id": "getting-started",
+    "title": "Getting Started",
+    "description": "Orientation, first login, and first successful job.",
+    "groups": [
+      {
+        "title": "Overview",
+        "pages": [
+          {
+            "title": "What is Mjolnir?",
+            "path": "getting-started/what-is-mjolnir/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "Who can use Mjolnir?",
+            "path": "getting-started/who-can-use-mjolnir/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "First Steps",
+        "pages": [
+          {
+            "title": "New user checklist",
+            "path": "getting-started/new-user-checklist/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "Submit your first job",
+            "path": "getting-started/first-job/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Concepts",
+        "pages": [
+          {
+            "title": "Login nodes vs compute nodes",
+            "path": "getting-started/login-vs-compute-nodes/",
+            "type": "policy",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accounts-access",
+    "title": "Accounts & Access",
+    "description": "Eligibility, user requests, VPN, SSH, and account maintenance.",
+    "groups": [
+      {
+        "title": "Account Requests",
+        "pages": [
+          {
+            "title": "Request access",
+            "path": "accounts-access/request-access/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Login",
+        "pages": [
+          {
+            "title": "VPN and SSH access",
+            "path": "accounts-access/vpn-ssh-access/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "SSH shortcuts, keys, and GitHub",
+            "path": "accounts-access/ssh-shortcuts-keys/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Account Maintenance",
+        "pages": [
+          {
+            "title": "Primary email and communication preferences",
+            "path": "accounts-access/email-preferences/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "storage",
+    "title": "Storage",
+    "description": "Project folders, transfer, backup, quotas, and cleanup.",
+    "groups": [
+      {
+        "title": "Storage Overview",
+        "pages": [
+          {
+            "title": "Project folders",
+            "path": "storage/project-folders/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Data Transfer",
+        "pages": [
+          {
+            "title": "Data transfer",
+            "path": "storage/data-transfer/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Backup and Retention",
+        "pages": [
+          {
+            "title": "Snapshot backup",
+            "path": "storage/backup-snapshots/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Storage Management",
+        "pages": [
+          {
+            "title": "Storage cost, quota, and cleanup",
+            "path": "storage/storage-policy/",
+            "type": "policy",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "slurm",
+    "title": "Slurm",
+    "description": "Scheduling concepts, partitions, QoS, fairshare, and resource requests.",
+    "groups": [
+      {
+        "title": "Slurm Basics",
+        "pages": [
+          {
+            "title": "Slurm basics",
+            "path": "slurm/slurm-basics/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Scheduling",
+        "pages": [
+          {
+            "title": "Partitions, QoS, and fairshare",
+            "path": "slurm/partitions-qos-fairshare/",
+            "type": "reference",
+            "status": "current"
+          },
+          {
+            "title": "Queue waiting times and pending reasons",
+            "path": "slurm/queue-waiting-times/",
+            "type": "troubleshooting",
+            "status": "current"
+          },
+          {
+            "title": "Lazy queue and low-priority work",
+            "path": "slurm/lazyqueue/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Resource Requests",
+        "pages": [
+          {
+            "title": "Memory allocation guide",
+            "path": "slurm/memory-allocation/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Reference",
+        "pages": []
+      }
+    ]
+  },
+  {
+    "id": "job-submission",
+    "title": "Job Submission",
+    "description": "Batch, interactive, array, teaching, and transfer job examples.",
+    "groups": [
+      {
+        "title": "Job Types",
+        "pages": [
+          {
+            "title": "Submitting jobs with sbatch",
+            "path": "job-submission/submitting-jobs/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "Interactive jobs with srun",
+            "path": "job-submission/interactive-jobs/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Examples",
+        "pages": [
+          {
+            "title": "Job arrays",
+            "path": "job-submission/job-arrays/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "Job template library",
+            "path": "job-submission/job-templates/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Output",
+        "pages": []
+      }
+    ]
+  },
+  {
+    "id": "monitoring-jobs",
+    "title": "Monitoring Jobs",
+    "description": "Queue inspection, accounting, cancellation, and utilization.",
+    "groups": [
+      {
+        "title": "Queue Monitoring",
+        "pages": [
+          {
+            "title": "Monitoring jobs",
+            "path": "monitoring-jobs/monitoring-jobs/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Job Details",
+        "pages": []
+      },
+      {
+        "title": "Canceling Jobs",
+        "pages": [
+          {
+            "title": "Canceling jobs",
+            "path": "monitoring-jobs/canceling-jobs/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Cluster Monitoring",
+        "pages": [
+          {
+            "title": "Cluster utilization and statistics",
+            "path": "monitoring-jobs/cluster-utilization/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "software",
+    "title": "Software",
+    "description": "Modules, Conda, software catalog, and software requests.",
+    "groups": [
+      {
+        "title": "Software Overview",
+        "pages": [
+          {
+            "title": "Modules and Conda environments",
+            "path": "software/modules-conda/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Using Software",
+        "pages": []
+      },
+      {
+        "title": "Software Catalog",
+        "pages": [
+          {
+            "title": "Software catalog",
+            "path": "software/software-catalog/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Requests",
+        "pages": [
+          {
+            "title": "Request software",
+            "path": "software/request-software/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "BioRender access",
+            "path": "software/biorender/",
+            "type": "faq",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "databases",
+    "title": "Databases",
+    "description": "Shared databases, requests, access, and catalog metadata.",
+    "groups": [
+      {
+        "title": "Database Overview",
+        "pages": [
+          {
+            "title": "Shared database repository",
+            "path": "databases/database-overview/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Using Databases",
+        "pages": []
+      },
+      {
+        "title": "Requests",
+        "pages": [
+          {
+            "title": "Request a database",
+            "path": "databases/request-database/",
+            "type": "guide",
+            "status": "current"
+          },
+          {
+            "title": "Non-Mjolnir shared database access",
+            "path": "databases/shared-database-access/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Database Catalog",
+        "pages": [
+          {
+            "title": "Database catalog",
+            "path": "databases/database-catalog/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gpu-computing",
+    "title": "GPU Computing",
+    "description": "GPU partition guidance, templates, CUDA, monitoring, and troubleshooting.",
+    "groups": [
+      {
+        "title": "GPU Overview",
+        "pages": [
+          {
+            "title": "GPU computing overview",
+            "path": "gpu-computing/gpu-overview/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Running GPU Jobs",
+        "pages": [
+          {
+            "title": "GPU job template",
+            "path": "gpu-computing/gpu-job-template/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Troubleshooting GPU Jobs",
+        "pages": [
+          {
+            "title": "GPU troubleshooting",
+            "path": "gpu-computing/gpu-troubleshooting/",
+            "type": "troubleshooting",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "policies",
+    "title": "Policies",
+    "description": "Rules for access, usage, storage, maintenance, and support scope.",
+    "groups": [
+      {
+        "title": "Access Policies",
+        "pages": []
+      },
+      {
+        "title": "Usage Policies",
+        "pages": [
+          {
+            "title": "Login node policy",
+            "path": "policies/login-node-policy/",
+            "type": "policy",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Storage Policies",
+        "pages": []
+      },
+      {
+        "title": "Operations Policies",
+        "pages": [
+          {
+            "title": "Support scope",
+            "path": "policies/support-scope/",
+            "type": "policy",
+            "status": "current"
+          },
+          {
+            "title": "Maintenance and disruption policy",
+            "path": "policies/maintenance-policy/",
+            "type": "policy",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "troubleshooting",
+    "title": "Troubleshooting",
+    "description": "Symptom-driven guides for login, jobs, software, and storage.",
+    "groups": [
+      {
+        "title": "Login and Access",
+        "pages": [
+          {
+            "title": "Cannot log in",
+            "path": "troubleshooting/cannot-login/",
+            "type": "troubleshooting",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Jobs",
+        "pages": [
+          {
+            "title": "Job is pending",
+            "path": "troubleshooting/job-pending/",
+            "type": "troubleshooting",
+            "status": "current"
+          },
+          {
+            "title": "Job failed or was killed",
+            "path": "troubleshooting/job-failed/",
+            "type": "troubleshooting",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Software",
+        "pages": [
+          {
+            "title": "Perl locale warning",
+            "path": "troubleshooting/perl-locale-warning/",
+            "type": "troubleshooting",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Storage",
+        "pages": []
+      },
+      {
+        "title": "Support",
+        "pages": []
+      }
+    ]
+  },
+  {
+    "id": "faq",
+    "title": "Frequently Asked Questions",
+    "description": "Short answers that link to canonical documentation.",
+    "groups": [
+      {
+        "title": "Accounts",
+        "pages": [
+          {
+            "title": "Accounts FAQ",
+            "path": "faq/accounts-faq/",
+            "type": "faq",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "VPN and SSH",
+        "pages": []
+      },
+      {
+        "title": "Storage",
+        "pages": [
+          {
+            "title": "Storage and software FAQ",
+            "path": "faq/storage-software-faq/",
+            "type": "faq",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Slurm",
+        "pages": [
+          {
+            "title": "Slurm FAQ",
+            "path": "faq/slurm-faq/",
+            "type": "faq",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Software",
+        "pages": []
+      },
+      {
+        "title": "Databases",
+        "pages": []
+      },
+      {
+        "title": "GPU",
+        "pages": []
+      },
+      {
+        "title": "Policies",
+        "pages": []
+      }
+    ]
+  },
+  {
+    "id": "administration",
+    "title": "Administration",
+    "description": "PI responsibilities, user administration, and documentation governance.",
+    "groups": [
+      {
+        "title": "PI Guidance",
+        "pages": [
+          {
+            "title": "PI responsibilities",
+            "path": "administration/pi-responsibilities/",
+            "type": "policy",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "User Administration",
+        "pages": [
+          {
+            "title": "User administration",
+            "path": "administration/user-administration/",
+            "type": "guide",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Operational Administration",
+        "pages": [
+          {
+            "title": "Documentation governance",
+            "path": "administration/content-governance/",
+            "type": "reference",
+            "status": "current"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "news-announcements",
+    "title": "News & Announcements",
+    "description": "Current announcements, release notes, and historical archive.",
+    "groups": [
+      {
+        "title": "Current Announcements",
+        "pages": [
+          {
+            "title": "Current announcements",
+            "path": "news-announcements/current-announcements/",
+            "type": "announcement",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Changelog",
+        "pages": [
+          {
+            "title": "Release notes",
+            "path": "news-announcements/release-notes/",
+            "type": "announcement",
+            "status": "current"
+          }
+        ]
+      },
+      {
+        "title": "Archive",
+        "pages": [
+          {
+            "title": "Historical archive",
+            "path": "news-announcements/archive-index/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2024-04-04 CEHall Section Meeting",
+            "path": "news-announcements/2024-04-04-cehall-section-meeting/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2024-03-27 Important Updates on Mjolnir Maintenance and System Changes",
+            "path": "news-announcements/2024-03-27-important-updates-on-mjolnir-maintenance-and-system-changes/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2024-04-11 Reminder: Important Updates on Mjolnir Maintenance and System Changes",
+            "path": "news-announcements/2024-04-11-reminder-important-updates-on-mjolnir-maintenance-and-system-changes/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2024-06-27 Summer Vacation Notice and Support Ticket Information",
+            "path": "news-announcements/2024-06-27-summer-vacation-notice-and-support-ticket-information/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2024-07-04 Scheduled Maintenance on Mjolnir",
+            "path": "news-announcements/2024-07-04-scheduled-maintenance-on-mjolnir/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2025-01-15 Storage cost and closing of Mjolnir1",
+            "path": "news-announcements/2025-01-15-storage-cost-and-closing-of-mjolnir1/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2025-02-14 Data Migration and Storage Transition Updates",
+            "path": "news-announcements/2025-02-14-data-migration-and-storage-transition-updates/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2025-02-24 Accelerating Data Migration from Mjolnir1",
+            "path": "news-announcements/2025-02-24-accelerating-data-migration-from-mjolnir1/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2025-02-28 Scheduled Maintenance and Important Changes",
+            "path": "news-announcements/2025-02-28-scheduled-maintenance-and-important-changes/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2025-03-03 QoS and Partition Limits",
+            "path": "news-announcements/2025-03-03-qos-and-partition-limits/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2025-05-24 Software Location, System Expansion, and Storage Reporting",
+            "path": "news-announcements/2025-05-24-software-location-system-expansion-and-storage-reporting/",
+            "type": "archive",
+            "status": "archive"
+          },
+          {
+            "title": "2026-05-19 New low-priority lazyqueue",
+            "path": "news-announcements/2026-05-19-new-low-priority-lazyqueue/",
+            "type": "archive",
+            "status": "archive"
+          }
+        ]
+      }
+    ]
+  }
+]

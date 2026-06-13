@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login nodes vs compute nodes | Mjolnir Documentation</title>
+  <meta name="description" content="Use login nodes for editing, file movement, job submission, and light inspection.">
+  <link rel="stylesheet" href="../../assets/docs.css">
+  <script defer src="../../assets/docs.js"></script>
+</head>
+<body class="" data-doc-category="Getting Started" data-doc-type="policy" data-doc-status="current" data-doc-title="Login nodes vs compute nodes" data-doc-description="Use login nodes for editing, file movement, job submission, and light inspection." data-pagefind-filter="category[data-doc-category], type[data-doc-type], status[data-doc-status]" data-pagefind-meta="title[data-doc-title], description[data-doc-description]">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../../index.html" aria-label="Mjolnir Documentation home">
+      <span class="brand-mark">M</span>
+      <span><strong>Mjolnir</strong><small>Documentation</small></span>
+    </a>
+    <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="global-search" role="search">
+      <input id="global-search" type="search" placeholder="Search docs, FAQs, policies, software..." autocomplete="off">
+      <div id="search-results" class="search-results" aria-live="polite"></div>
+    </div>
+    <nav class="top-links" aria-label="Global">
+      <a href="../../news-announcements/current-announcements/">News</a>
+      <a href="../../troubleshooting/cannot-login/">Help</a>
+      <a href="https://mjolnirucph-help.freshdesk.com/support/tickets/new">Support ticket</a>
+    </nav>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Documentation navigation">
+      <nav>
+    <a class="side-home" href="../../index.html">Documentation Home</a>
+    <section class="side-section is-active">
+        <a class="side-title" href="../../getting-started/">Getting Started</a>
+        <div class="side-items"><a href="../../getting-started/what-is-mjolnir/">What is Mjolnir?</a><a href="../../getting-started/who-can-use-mjolnir/">Who can use Mjolnir?</a><a href="../../getting-started/new-user-checklist/">New user checklist</a><a href="../../getting-started/first-job/">Submit your first job</a><a href="../../getting-started/login-vs-compute-nodes/">Login nodes vs compute nodes</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../accounts-access/">Accounts &amp; Access</a>
+        <div class="side-items"><a href="../../accounts-access/request-access/">Request access</a><a href="../../accounts-access/vpn-ssh-access/">VPN and SSH access</a><a href="../../accounts-access/ssh-shortcuts-keys/">SSH shortcuts, keys, and GitHub</a><a href="../../accounts-access/email-preferences/">Primary email and communication preferences</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../storage/">Storage</a>
+        <div class="side-items"><a href="../../storage/project-folders/">Project folders</a><a href="../../storage/data-transfer/">Data transfer</a><a href="../../storage/backup-snapshots/">Snapshot backup</a><a href="../../storage/storage-policy/">Storage cost, quota, and cleanup</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../slurm/">Slurm</a>
+        <div class="side-items"><a href="../../slurm/slurm-basics/">Slurm basics</a><a href="../../slurm/partitions-qos-fairshare/">Partitions, QoS, and fairshare</a><a href="../../slurm/queue-waiting-times/">Queue waiting times and pending reasons</a><a href="../../slurm/memory-allocation/">Memory allocation guide</a><a href="../../slurm/lazyqueue/">Lazy queue and low-priority work</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../job-submission/">Job Submission</a>
+        <div class="side-items"><a href="../../job-submission/submitting-jobs/">Submitting jobs with sbatch</a><a href="../../job-submission/interactive-jobs/">Interactive jobs with srun</a><a href="../../job-submission/job-arrays/">Job arrays</a><a href="../../job-submission/job-templates/">Job template library</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../monitoring-jobs/">Monitoring Jobs</a>
+        <div class="side-items"><a href="../../monitoring-jobs/monitoring-jobs/">Monitoring jobs</a><a href="../../monitoring-jobs/canceling-jobs/">Canceling jobs</a><a href="../../monitoring-jobs/cluster-utilization/">Cluster utilization and statistics</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../software/">Software</a>
+        <div class="side-items"><a href="../../software/modules-conda/">Modules and Conda environments</a><a href="../../software/software-catalog/">Software catalog</a><a href="../../software/request-software/">Request software</a><a href="../../software/biorender/">BioRender access</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../databases/">Databases</a>
+        <div class="side-items"><a href="../../databases/database-overview/">Shared database repository</a><a href="../../databases/request-database/">Request a database</a><a href="../../databases/shared-database-access/">Non-Mjolnir shared database access</a><a href="../../databases/database-catalog/">Database catalog</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../gpu-computing/">GPU Computing</a>
+        <div class="side-items"><a href="../../gpu-computing/gpu-overview/">GPU computing overview</a><a href="../../gpu-computing/gpu-job-template/">GPU job template</a><a href="../../gpu-computing/gpu-troubleshooting/">GPU troubleshooting</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../policies/">Policies</a>
+        <div class="side-items"><a href="../../policies/login-node-policy/">Login node policy</a><a href="../../policies/support-scope/">Support scope</a><a href="../../policies/maintenance-policy/">Maintenance and disruption policy</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../troubleshooting/">Troubleshooting</a>
+        <div class="side-items"><a href="../../troubleshooting/cannot-login/">Cannot log in</a><a href="../../troubleshooting/job-pending/">Job is pending</a><a href="../../troubleshooting/job-failed/">Job failed or was killed</a><a href="../../troubleshooting/perl-locale-warning/">Perl locale warning</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../faq/">Frequently Asked Questions</a>
+        <div class="side-items"><a href="../../faq/accounts-faq/">Accounts FAQ</a><a href="../../faq/slurm-faq/">Slurm FAQ</a><a href="../../faq/storage-software-faq/">Storage and software FAQ</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../administration/">Administration</a>
+        <div class="side-items"><a href="../../administration/pi-responsibilities/">PI responsibilities</a><a href="../../administration/user-administration/">User administration</a><a href="../../administration/content-governance/">Documentation governance</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../news-announcements/">News &amp; Announcements</a>
+        <div class="side-items"><a href="../../news-announcements/current-announcements/">Current announcements</a><a href="../../news-announcements/release-notes/">Release notes</a></div>
+      </section>
+  </nav>
+    </aside>
+    <main id="main" class="content" data-pagefind-body>
+      
+    <nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="../../index.html">Home</a> <span>/</span> <a href="../../getting-started/">Getting Started</a> <span>/</span> <span>Login nodes vs compute nodes</span></nav>
+    <article class="doc-article">
+      <div class="article-meta">
+        <span>Getting Started</span>
+        <span>policy</span>
+        <span>current</span>
+        <span>Reviewed 2026-06-13</span>
+      </div>
+      <h1>Login nodes vs compute nodes</h1>
+<p>Use login nodes for editing, file movement, job submission, and light inspection.</p>
+<p>Do not run heavy computation on mjolnirgate or other login nodes. Heavy work must be submitted to Slurm.</p>
+<p>This rule protects every user by keeping the shared entrance node responsive.</p>
+<h2>Source consolidation</h2>
+<ul>
+<li>Freshdesk: VPN access and login to Mjolnir</li>
+<li>Policies: Login node policy</li>
+</ul>
+<h2>Related pages</h2>
+<ul>
+<li>[What is Mjolnir?](../what-is-mjolnir/)</li>
+<li>[Who can use Mjolnir?](../who-can-use-mjolnir/)</li>
+<li>[New user checklist](../new-user-checklist/)</li>
+<li>[Submit your first job](../first-job/)</li>
+<li>[Login node policy](../login-node-policy/)</li>
+</ul>
+      <section class="related">
+        <h2>Related</h2>
+        <div class="card-grid compact"><a class="card" href="../../getting-started/what-is-mjolnir/"><span>Getting Started</span><strong>What is Mjolnir?</strong><p>Mjolnir is the Globe Institute high-performance computing cluster for research workloads associated with the Mjolnir consortium.</p></a><a class="card" href="../../getting-started/who-can-use-mjolnir/"><span>Getting Started</span><strong>Who can use Mjolnir?</strong><p>Access is restricted to UCPH employees or external collaborators associated with participating principal investigators.</p></a><a class="card" href="../../getting-started/new-user-checklist/"><span>Getting Started</span><strong>New user checklist</strong><p>1. Confirm eligibility and PI/project affiliation.</p></a><a class="card" href="../../getting-started/first-job/"><span>Getting Started</span><strong>Submit your first job</strong><p>Run computation through Slurm rather than directly on the login node.</p></a></div>
+      </section>
+    </article>
+    </main>
+  </div>
+</body>
+</html>

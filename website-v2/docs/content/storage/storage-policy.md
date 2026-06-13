@@ -28,6 +28,6 @@ Old Mjolnir1 migration notices are archived; current storage policy should live 
 
 ## Related pages
 
-- [Project folders](../project-folders/)
-- [Data transfer](../data-transfer/)
-- [Snapshot backup](../backup-snapshots/)
+- [Project folders](../../storage/project-folders/)
+- [Data transfer](../../storage/data-transfer/)
+- [Snapshot backup](../../storage/backup-snapshots/)

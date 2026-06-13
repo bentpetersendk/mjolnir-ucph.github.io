@@ -30,6 +30,6 @@ Document what is backed up, what is not backed up, and who to contact before ass
 
 ## Related pages
 
-- [Project folders](../project-folders/)
-- [Data transfer](../data-transfer/)
-- [Storage cost, quota, and cleanup](../storage-policy/)
+- [Project folders](../../storage/project-folders/)
+- [Data transfer](../../storage/data-transfer/)
+- [Storage cost, quota, and cleanup](../../storage/storage-policy/)

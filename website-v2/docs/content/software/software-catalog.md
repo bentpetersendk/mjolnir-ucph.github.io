@@ -28,7 +28,7 @@ Bioinformatics software should be grouped and tagged for discovery.
 
 ## Related pages
 
-- [Modules and Conda environments](../modules-conda/)
-- [Request software](../request-software/)
-- [BioRender access](../biorender/)
-- [Database catalog](../database-catalog/)
+- [Modules and Conda environments](../../software/modules-conda/)
+- [Request software](../../software/request-software/)
+- [BioRender access](../../software/biorender/)
+- [Database catalog](../../databases/database-catalog/)

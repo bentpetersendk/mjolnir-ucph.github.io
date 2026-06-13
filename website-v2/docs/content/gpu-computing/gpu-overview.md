@@ -28,5 +28,5 @@ Check software/module compatibility before submitting large GPU workloads.
 
 ## Related pages
 
-- [GPU job template](../gpu-job-template/)
-- [GPU troubleshooting](../gpu-troubleshooting/)
+- [GPU job template](../../gpu-computing/gpu-job-template/)
+- [GPU troubleshooting](../../gpu-computing/gpu-troubleshooting/)

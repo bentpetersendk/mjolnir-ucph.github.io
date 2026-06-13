@@ -30,6 +30,6 @@ This page supersedes the old short Freshdesk and ReadTheDocs articles on primary
 
 ## Related pages
 
-- [Request access](../request-access/)
-- [VPN and SSH access](../vpn-ssh-access/)
-- [SSH shortcuts, keys, and GitHub](../ssh-shortcuts-keys/)
+- [Request access](../../accounts-access/request-access/)
+- [VPN and SSH access](../../accounts-access/vpn-ssh-access/)
+- [SSH shortcuts, keys, and GitHub](../../accounts-access/ssh-shortcuts-keys/)

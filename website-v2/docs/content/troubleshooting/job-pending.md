@@ -28,8 +28,8 @@ If a job appears stuck because of invalid resource requests, adjust the request 
 
 ## Related pages
 
-- [Submit your first job](../first-job/)
-- [Slurm basics](../slurm-basics/)
-- [Queue waiting times and pending reasons](../queue-waiting-times/)
-- [Cannot log in](../cannot-login/)
-- [Job failed or was killed](../job-failed/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Slurm basics](../../slurm/slurm-basics/)
+- [Queue waiting times and pending reasons](../../slurm/queue-waiting-times/)
+- [Cannot log in](../../troubleshooting/cannot-login/)
+- [Job failed or was killed](../../troubleshooting/job-failed/)

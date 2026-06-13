@@ -28,6 +28,6 @@ This page preserves the Freshdesk troubleshooting article in the new structure.
 
 ## Related pages
 
-- [Cannot log in](../cannot-login/)
-- [Job is pending](../job-pending/)
-- [Job failed or was killed](../job-failed/)
+- [Cannot log in](../../troubleshooting/cannot-login/)
+- [Job is pending](../../troubleshooting/job-pending/)
+- [Job failed or was killed](../../troubleshooting/job-failed/)

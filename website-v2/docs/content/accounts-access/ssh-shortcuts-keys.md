@@ -32,7 +32,7 @@ Keep SSH credentials private. Never share private keys in tickets, chat, or docu
 
 ## Related pages
 
-- [Request access](../request-access/)
-- [VPN and SSH access](../vpn-ssh-access/)
-- [Primary email and communication preferences](../email-preferences/)
-- [Cannot log in](../cannot-login/)
+- [Request access](../../accounts-access/request-access/)
+- [VPN and SSH access](../../accounts-access/vpn-ssh-access/)
+- [Primary email and communication preferences](../../accounts-access/email-preferences/)
+- [Cannot log in](../../troubleshooting/cannot-login/)

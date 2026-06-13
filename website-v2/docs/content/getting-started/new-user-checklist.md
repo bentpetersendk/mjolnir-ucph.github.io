@@ -38,7 +38,7 @@ source_pages:
 
 ## Related pages
 
-- [What is Mjolnir?](../what-is-mjolnir/)
-- [Who can use Mjolnir?](../who-can-use-mjolnir/)
-- [Submit your first job](../first-job/)
-- [Login nodes vs compute nodes](../login-vs-compute-nodes/)
+- [What is Mjolnir?](../../getting-started/what-is-mjolnir/)
+- [Who can use Mjolnir?](../../getting-started/who-can-use-mjolnir/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Login nodes vs compute nodes](../../getting-started/login-vs-compute-nodes/)

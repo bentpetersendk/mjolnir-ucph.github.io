@@ -30,8 +30,8 @@ Software request workflow supersedes old duplicated Freshdesk and ReadTheDocs re
 
 ## Related pages
 
-- [Request access](../request-access/)
-- [Modules and Conda environments](../modules-conda/)
-- [Software catalog](../software-catalog/)
-- [BioRender access](../biorender/)
-- [Request a database](../request-database/)
+- [Request access](../../accounts-access/request-access/)
+- [Modules and Conda environments](../../software/modules-conda/)
+- [Software catalog](../../software/software-catalog/)
+- [BioRender access](../../software/biorender/)
+- [Request a database](../../databases/request-database/)

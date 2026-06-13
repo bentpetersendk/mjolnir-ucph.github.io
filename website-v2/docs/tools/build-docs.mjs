@@ -381,6 +381,7 @@ function esc(value) {
 
 function mdInline(value) {
   return esc(value)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
     .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
 }
@@ -450,7 +451,7 @@ function frontMatter(p) {
 
 function markdownFor(p) {
   const related = relatedPages(p).slice(0, 5);
-  return `${frontMatter(p)}# ${p.title}\n\n${p.body.join("\n\n")}\n\n## Source consolidation\n\n${p.sources.map((s) => `- ${s}`).join("\n")}\n\n## Related pages\n\n${related.map((r) => `- [${r.title}](../${r.slug}/)`).join("\n") || "- None yet."}\n`;
+  return `${frontMatter(p)}# ${p.title}\n\n${p.body.join("\n\n")}\n\n## Source consolidation\n\n${p.sources.map((s) => `- ${s}`).join("\n")}\n\n## Related pages\n\n${related.map((r) => `- [${r.title}](../../${r.category}/${r.slug}/)`).join("\n") || "- None yet."}\n`;
 }
 
 function categoryNameFor(slugValue) {

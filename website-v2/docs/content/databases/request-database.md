@@ -28,8 +28,8 @@ Requests should be reviewed for storage impact and shared value.
 
 ## Related pages
 
-- [Request access](../request-access/)
-- [Request software](../request-software/)
-- [Shared database repository](../database-overview/)
-- [Non-Mjolnir shared database access](../shared-database-access/)
-- [Database catalog](../database-catalog/)
+- [Request access](../../accounts-access/request-access/)
+- [Request software](../../software/request-software/)
+- [Shared database repository](../../databases/database-overview/)
+- [Non-Mjolnir shared database access](../../databases/shared-database-access/)
+- [Database catalog](../../databases/database-catalog/)

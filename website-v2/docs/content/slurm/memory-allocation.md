@@ -28,8 +28,8 @@ If a job is killed for memory, review logs and accounting before increasing the 
 
 ## Related pages
 
-- [Slurm basics](../slurm-basics/)
-- [Partitions, QoS, and fairshare](../partitions-qos-fairshare/)
-- [Queue waiting times and pending reasons](../queue-waiting-times/)
-- [Lazy queue and low-priority work](../lazyqueue/)
-- [GPU troubleshooting](../gpu-troubleshooting/)
+- [Slurm basics](../../slurm/slurm-basics/)
+- [Partitions, QoS, and fairshare](../../slurm/partitions-qos-fairshare/)
+- [Queue waiting times and pending reasons](../../slurm/queue-waiting-times/)
+- [Lazy queue and low-priority work](../../slurm/lazyqueue/)
+- [GPU troubleshooting](../../gpu-computing/gpu-troubleshooting/)

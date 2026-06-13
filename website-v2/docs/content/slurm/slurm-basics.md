@@ -30,8 +30,8 @@ Use Slurm for computation. Login nodes are not compute nodes.
 
 ## Related pages
 
-- [Submit your first job](../first-job/)
-- [Partitions, QoS, and fairshare](../partitions-qos-fairshare/)
-- [Queue waiting times and pending reasons](../queue-waiting-times/)
-- [Memory allocation guide](../memory-allocation/)
-- [Lazy queue and low-priority work](../lazyqueue/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Partitions, QoS, and fairshare](../../slurm/partitions-qos-fairshare/)
+- [Queue waiting times and pending reasons](../../slurm/queue-waiting-times/)
+- [Memory allocation guide](../../slurm/memory-allocation/)
+- [Lazy queue and low-priority work](../../slurm/lazyqueue/)

@@ -28,7 +28,7 @@ This extracts durable guidance from the 2026 lazyqueue announcement.
 
 ## Related pages
 
-- [Slurm basics](../slurm-basics/)
-- [Partitions, QoS, and fairshare](../partitions-qos-fairshare/)
-- [Queue waiting times and pending reasons](../queue-waiting-times/)
-- [Memory allocation guide](../memory-allocation/)
+- [Slurm basics](../../slurm/slurm-basics/)
+- [Partitions, QoS, and fairshare](../../slurm/partitions-qos-fairshare/)
+- [Queue waiting times and pending reasons](../../slurm/queue-waiting-times/)
+- [Memory allocation guide](../../slurm/memory-allocation/)

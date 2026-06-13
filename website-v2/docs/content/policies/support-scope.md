@@ -30,5 +30,5 @@ Users should include job IDs, commands, error messages, and relevant paths when 
 
 ## Related pages
 
-- [Login node policy](../login-node-policy/)
-- [Maintenance and disruption policy](../maintenance-policy/)
+- [Login node policy](../../policies/login-node-policy/)
+- [Maintenance and disruption policy](../../policies/maintenance-policy/)

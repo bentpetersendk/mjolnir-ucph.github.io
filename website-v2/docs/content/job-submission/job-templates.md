@@ -28,6 +28,6 @@ Every template should prefer safe defaults over maximum resource requests.
 
 ## Related pages
 
-- [Submitting jobs with sbatch](../submitting-jobs/)
-- [Interactive jobs with srun](../interactive-jobs/)
-- [Job arrays](../job-arrays/)
+- [Submitting jobs with sbatch](../../job-submission/submitting-jobs/)
+- [Interactive jobs with srun](../../job-submission/interactive-jobs/)
+- [Job arrays](../../job-submission/job-arrays/)

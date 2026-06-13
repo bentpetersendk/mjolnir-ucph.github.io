@@ -32,5 +32,5 @@ Past maintenance emails should move to archive after the event window closes.
 
 ## Related pages
 
-- [Login node policy](../login-node-policy/)
-- [Support scope](../support-scope/)
+- [Login node policy](../../policies/login-node-policy/)
+- [Support scope](../../policies/support-scope/)

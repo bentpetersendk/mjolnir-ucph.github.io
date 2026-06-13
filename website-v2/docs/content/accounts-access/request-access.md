@@ -30,8 +30,8 @@ After approval, the user should follow the new user checklist and first-login in
 
 ## Related pages
 
-- [VPN and SSH access](../vpn-ssh-access/)
-- [SSH shortcuts, keys, and GitHub](../ssh-shortcuts-keys/)
-- [Primary email and communication preferences](../email-preferences/)
-- [Request software](../request-software/)
-- [Request a database](../request-database/)
+- [VPN and SSH access](../../accounts-access/vpn-ssh-access/)
+- [SSH shortcuts, keys, and GitHub](../../accounts-access/ssh-shortcuts-keys/)
+- [Primary email and communication preferences](../../accounts-access/email-preferences/)
+- [Request software](../../software/request-software/)
+- [Request a database](../../databases/request-database/)

@@ -30,6 +30,6 @@ Database documentation should describe where databases live, how to cite or vers
 
 ## Related pages
 
-- [Request a database](../request-database/)
-- [Non-Mjolnir shared database access](../shared-database-access/)
-- [Database catalog](../database-catalog/)
+- [Request a database](../../databases/request-database/)
+- [Non-Mjolnir shared database access](../../databases/shared-database-access/)
+- [Database catalog](../../databases/database-catalog/)

@@ -28,7 +28,7 @@ Monitor GPU utilization to ensure the job benefits from GPU resources.
 
 ## Related pages
 
-- [Submit your first job](../first-job/)
-- [Submitting jobs with sbatch](../submitting-jobs/)
-- [GPU computing overview](../gpu-overview/)
-- [GPU troubleshooting](../gpu-troubleshooting/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Submitting jobs with sbatch](../../job-submission/submitting-jobs/)
+- [GPU computing overview](../../gpu-computing/gpu-overview/)
+- [GPU troubleshooting](../../gpu-computing/gpu-troubleshooting/)

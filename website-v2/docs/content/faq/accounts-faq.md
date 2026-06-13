@@ -30,5 +30,5 @@ Q: What if VPN fails? A: Contact KU-IT for VPN client issues; contact Mjolnir su
 
 ## Related pages
 
-- [Slurm FAQ](../slurm-faq/)
-- [Storage and software FAQ](../storage-software-faq/)
+- [Slurm FAQ](../../faq/slurm-faq/)
+- [Storage and software FAQ](../../faq/storage-software-faq/)

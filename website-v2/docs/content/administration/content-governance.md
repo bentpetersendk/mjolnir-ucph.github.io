@@ -28,5 +28,5 @@ Announcements that change behavior must link to updated canonical docs.
 
 ## Related pages
 
-- [PI responsibilities](../pi-responsibilities/)
-- [User administration](../user-administration/)
+- [PI responsibilities](../../administration/pi-responsibilities/)
+- [User administration](../../administration/user-administration/)

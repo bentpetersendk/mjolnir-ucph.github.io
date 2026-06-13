@@ -28,6 +28,6 @@ Do not use the login node as a substitute for an interactive compute allocation.
 
 ## Related pages
 
-- [Submitting jobs with sbatch](../submitting-jobs/)
-- [Job arrays](../job-arrays/)
-- [Job template library](../job-templates/)
+- [Submitting jobs with sbatch](../../job-submission/submitting-jobs/)
+- [Job arrays](../../job-submission/job-arrays/)
+- [Job template library](../../job-submission/job-templates/)

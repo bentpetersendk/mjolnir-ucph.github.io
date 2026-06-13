@@ -28,8 +28,8 @@ If many jobs wait unexpectedly, check fairshare, requested runtime, memory, part
 
 ## Related pages
 
-- [Slurm basics](../slurm-basics/)
-- [Partitions, QoS, and fairshare](../partitions-qos-fairshare/)
-- [Memory allocation guide](../memory-allocation/)
-- [Lazy queue and low-priority work](../lazyqueue/)
-- [Job is pending](../job-pending/)
+- [Slurm basics](../../slurm/slurm-basics/)
+- [Partitions, QoS, and fairshare](../../slurm/partitions-qos-fairshare/)
+- [Memory allocation guide](../../slurm/memory-allocation/)
+- [Lazy queue and low-priority work](../../slurm/lazyqueue/)
+- [Job is pending](../../troubleshooting/job-pending/)

@@ -28,5 +28,5 @@ Avoid maintaining duplicate instructions in Freshdesk and the documentation port
 
 ## Related pages
 
-- [PI responsibilities](../pi-responsibilities/)
-- [Documentation governance](../content-governance/)
+- [PI responsibilities](../../administration/pi-responsibilities/)
+- [Documentation governance](../../administration/content-governance/)

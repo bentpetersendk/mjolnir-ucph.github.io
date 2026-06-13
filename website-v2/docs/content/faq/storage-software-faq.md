@@ -30,8 +30,8 @@ Q: How do I request software? A: Use the software request workflow and include v
 
 ## Related pages
 
-- [Project folders](../project-folders/)
-- [Modules and Conda environments](../modules-conda/)
-- [Request software](../request-software/)
-- [BioRender access](../biorender/)
-- [Accounts FAQ](../accounts-faq/)
+- [Project folders](../../storage/project-folders/)
+- [Modules and Conda environments](../../software/modules-conda/)
+- [Request software](../../software/request-software/)
+- [BioRender access](../../software/biorender/)
+- [Accounts FAQ](../../faq/accounts-faq/)

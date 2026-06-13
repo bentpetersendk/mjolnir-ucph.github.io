@@ -1,0 +1,132 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem max(1rem, calc((100vw - 1120px) / 2));
+  border-bottom: 1px solid #dde3ed;
+  background: #ffffff;
+}
+
+.brand {
+  flex: 0 0 auto;
+  font-weight: 700;
+  color: #172033;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+}
+
+.site-nav a {
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  color: #31415c;
+  font-size: 0.94rem;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  background: #e9eef7;
+  color: #172033;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 4rem 0 3rem;
+  background: #ffffff;
+  border-bottom: 1px solid #dde3ed;
+}
+
+.hero__content {
+  display: grid;
+  gap: 1rem;
+}
+
+.eyebrow {
+  margin: 0;
+  color: #57657a;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero h1,
+.page-shell h1 {
+  max-width: 12ch;
+  margin: 0;
+  font-size: 3rem;
+  line-height: 1.08;
+}
+
+.hero__text,
+.page-shell p {
+  max-width: 72ch;
+  margin: 0;
+  color: #405069;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.section-card {
+  display: grid;
+  gap: 0.35rem;
+  min-height: 9rem;
+  padding: 1rem;
+  border: 1px solid #dde3ed;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #172033;
+}
+
+.section-card:hover {
+  border-color: #9badc8;
+  text-decoration: none;
+}
+
+.section-card span {
+  font-weight: 700;
+}
+
+.section-card small {
+  color: #57657a;
+  font-size: 0.92rem;
+}
+
+.setup-note {
+  margin-bottom: 2rem;
+  padding: 1.25rem;
+  border: 1px solid #dde3ed;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.setup-note h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.setup-note p {
+  margin: 0;
+  color: #405069;
+}
+
+.footer {
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #dde3ed;
+  color: #57657a;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}

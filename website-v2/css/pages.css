@@ -1,0 +1,27 @@
+.page-shell {
+  display: grid;
+  gap: 1rem;
+  width: min(820px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-nav {
+    justify-content: flex-start;
+  }
+
+  .hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .hero h1,
+  .page-shell h1 {
+    font-size: 2.25rem;
+  }
+}

@@ -3,78 +3,167 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mjolnir Website v2</title>
+  <title>Mjolnir | Globe Institute Research Computing</title>
+  <meta name="description" content="Mjolnir is a Globe Institute HPC cluster at the University of Copenhagen for consortium researchers working with large-scale data analysis.">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/components.css">
   <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">Mjolnir v2</a>
-    <nav class="site-nav" aria-label="Website v2 sections">
-      <a href="hardware.html">Hardware</a>
-      <a href="software.html">Software</a>
-      <a href="statistics.html">Statistics</a>
-      <a href="groups.html">Groups</a>
-      <a href="news.html">News</a>
-      <a href="support.html">Support</a>
-      <a href="about.html">About</a>
-      <a href="access.html">Access</a>
-    </nav>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Mjolnir</a>
+      <nav class="site-nav" aria-label="Website v2 sections">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="access.html">Getting Access</a>
+        <a href="hardware.html">Hardware</a>
+        <a href="software.html">Software</a>
+        <a href="statistics.html">Statistics</a>
+        <a href="support.html">Support</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="container hero__content">
-        <p class="eyebrow">Mjolnir next-generation website</p>
-        <h1>Mjolnir Website v2</h1>
-        <p class="hero__text">This is a separate development preview for the next-generation Mjolnir website. The existing production website remains untouched while the new architecture is built in parallel.</p>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Globe Institute · University of Copenhagen</p>
+          <h1>Mjolnir</h1>
+          <p class="lead">A high-performance computing cluster for Globe Institute researchers working with large datasets, scientific software, and powerful data analysis.</p>
+          <div class="actions">
+            <a class="button" href="access.html">Request access</a>
+            <a class="button secondary" href="support.html">Support ticket</a>
+            <a class="button secondary" href="software.html">Software overview</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="assets/mjolnir-cluster.jpg" alt="Mjolnir cluster visual identity">
+        </figure>
       </div>
     </section>
 
-    <section class="container section-grid" aria-label="Planned website sections">
-      <a class="section-card" href="hardware.html">
-        <span>Hardware</span>
-        <small>Cluster capacity, storage, and technical inventory.</small>
-      </a>
-      <a class="section-card" href="software.html">
-        <span>Software</span>
-        <small>Installed tools, environments, and request paths.</small>
-      </a>
-      <a class="section-card" href="statistics.html">
-        <span>Statistics</span>
-        <small>Utilization, jobs, and usage reporting.</small>
-      </a>
-      <a class="section-card" href="groups.html">
-        <span>Groups</span>
-        <small>PI groups, affiliation context, and ownership.</small>
-      </a>
-      <a class="section-card" href="news.html">
-        <span>News</span>
-        <small>Announcements, disruptions, and maintenance updates.</small>
-      </a>
-      <a class="section-card" href="support.html">
-        <span>Support</span>
-        <small>Help desk, documentation, and service channels.</small>
-      </a>
-      <a class="section-card" href="about.html">
-        <span>About</span>
-        <small>Mission, governance, and service overview.</small>
-      </a>
-      <a class="section-card" href="access.html">
-        <span>Access</span>
-        <small>Eligibility, onboarding, and account requests.</small>
-      </a>
+    <section class="section">
+      <div class="container grid two">
+        <div>
+          <h2>Research computing for the Globe Institute</h2>
+          <p class="lead">Mjolnir is an HPC cluster funded by a consortium of principal investigators affiliated with the Globe Institute at the University of Copenhagen. The cluster is housed at UCPH and integrated into its IT infrastructure.</p>
+          <p>Access is restricted to UCPH employees and external collaborators associated with the consortium.</p>
+        </div>
+        <aside class="callout">
+          <h2>Consortium-based access</h2>
+          <p>Mjolnir is organized around participating principal investigators and the research groups connected to them.</p>
+        </aside>
+      </div>
     </section>
 
-    <section class="container setup-note">
-      <h2>Development Boundary</h2>
-      <p>All v2 CSS, JavaScript, data, assets, and documentation live inside website-v2. No production pages or production assets are required by this preview.</p>
+    <section class="section alt">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Mjolnir at a glance</h2>
+        </div>
+        <div class="stats-grid" aria-label="Mjolnir service highlights">
+          <article class="stat-card">
+            <span class="stat-value">1,400+</span>
+            <h3>Installed tools</h3>
+          </article>
+          <article class="stat-card">
+            <span class="stat-value">UCPH</span>
+            <h3>Hosted infrastructure</h3>
+          </article>
+          <article class="stat-card">
+            <span class="stat-value">PI</span>
+            <h3>Consortium governed</h3>
+          </article>
+        </div>
+        <div class="glance-list">
+          <div><span aria-hidden="true">&#10003;</span> High-performance computing for large-scale research data</div>
+          <div><span aria-hidden="true">&#10003;</span> Funded by a Globe Institute PI consortium</div>
+          <div><span aria-hidden="true">&#10003;</span> Integrated with University of Copenhagen IT infrastructure</div>
+          <div><span aria-hidden="true">&#10003;</span> Software and scientific tools for data-intensive analysis</div>
+          <div><span aria-hidden="true">&#10003;</span> Access for eligible UCPH employees and consortium collaborators</div>
+          <div><span aria-hidden="true">&#10003;</span> Support paths for accounts, documentation, and tickets</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <h2>What Mjolnir provides</h2>
+          <p class="lead">Mjolnir gives researchers access to shared compute capacity, scientific software, and support channels for analyses that outgrow local machines.</p>
+        </div>
+        <div class="grid three">
+          <article class="card">
+            <h3>High-performance computing</h3>
+            <p>Compute resources for large research workloads and powerful data analysis.</p>
+          </article>
+          <article class="card">
+            <h3>Scientific software</h3>
+            <p>More than 1,400 installed software packages and scientific tools are available to users.</p>
+          </article>
+          <article class="card">
+            <h3>UCPH integration</h3>
+            <p>The cluster is housed at UCPH and integrated into University IT infrastructure.</p>
+          </article>
+          <article class="card">
+            <h3>Research group access</h3>
+            <p>Access follows consortium affiliation and principal investigator responsibility.</p>
+          </article>
+          <article class="card">
+            <h3>Software requests</h3>
+            <p>Users can request tools and databases that are not yet available on Mjolnir.</p>
+          </article>
+          <article class="card">
+            <h3>Support and documentation</h3>
+            <p>Support ticketing and knowledgebase resources help users get started and resolve issues.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container grid two">
+        <div>
+          <h2>Built for big research questions</h2>
+          <p class="lead">The name Mjolnir refers to Thor's hammer, chosen here as a symbol for processing vast amounts of data and tackling research analyses at scale.</p>
+          <div class="actions">
+            <a class="button" href="hardware.html">Explore hardware</a>
+            <a class="button secondary" href="statistics.html">View statistics</a>
+          </div>
+        </div>
+        <div class="workflow" aria-label="Mjolnir access model">
+          <article class="step">
+            <span class="number">1</span>
+            <div>
+              <h3>Consortium affiliation</h3>
+              <p>Confirm that the user is connected to a participating PI or eligible collaborator group.</p>
+            </div>
+          </article>
+          <article class="step">
+            <span class="number">2</span>
+            <div>
+              <h3>Account request</h3>
+              <p>Submit a request through the support workflow for review and provisioning.</p>
+            </div>
+          </article>
+          <article class="step">
+            <span class="number">3</span>
+            <div>
+              <h3>Start computing</h3>
+              <p>Use Mjolnir software, databases, and compute resources for approved research work.</p>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Website v2 development preview. Production remains served from the repository root.</p>
+    <div class="container">
+      <p>Mjolnir Website v2 development preview. Production remains served from the repository root.</p>
+    </div>
   </footer>
 
   <script src="js/main.js"></script>

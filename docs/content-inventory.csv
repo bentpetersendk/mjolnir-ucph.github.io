@@ -1,0 +1,121 @@
+source,section,title,url,category,status,words,modified
+Freshdesk,Category,General,https://mjolnirucph-help.freshdesk.com/support/solutions/154000111877,Getting Started,keep,,
+Freshdesk,Folder,About,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000309467,Getting Started,keep,,
+Freshdesk,Category,Software/modules,https://mjolnirucph-help.freshdesk.com/support/solutions/154000114002,Software,keep,,
+Freshdesk,Folder,Software,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000290876,Software,keep,,
+Freshdesk,Category,Computational jobs,https://mjolnirucph-help.freshdesk.com/support/solutions/154000114003,Job Submission,keep,,
+Freshdesk,Folder,Queues and QoS,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000747309,Slurm,keep,,
+Freshdesk,Category,Databases,https://mjolnirucph-help.freshdesk.com/support/solutions/154000114625,Databases,keep,,
+Freshdesk,Folder,Databases,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000309474,Databases,keep,,
+Freshdesk,Category,VPN access and login,https://mjolnirucph-help.freshdesk.com/support/solutions/154000115373,Login & VPN,keep,,
+Freshdesk,Folder,VPN access,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000288335,Login & VPN,keep,,
+Freshdesk,Folder,SSH,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000288351,Login & VPN,keep,,
+Freshdesk,Category,Hardware,https://mjolnirucph-help.freshdesk.com/support/solutions/154000115386,Hardware,keep,,
+Freshdesk,Folder,Hardware,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000288372,Hardware,keep,,
+Freshdesk,Category,Project folder and data,https://mjolnirucph-help.freshdesk.com/support/solutions/154000123813,Storage,keep,,
+Freshdesk,Folder,Project/data folders,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000309468,Storage,keep,,
+Freshdesk,Folder,Backup,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000309500,Storage,keep,,
+Freshdesk,Folder,Data Transfer,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000314011,Storage,keep,,
+Freshdesk,Category,Troubleshooting,https://mjolnirucph-help.freshdesk.com/support/solutions/154000132967,Troubleshooting,keep,,
+Freshdesk,Folder,Perl,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000332436,Troubleshooting,keep,,
+Freshdesk,Folder,Support,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000360431,Troubleshooting,keep,,
+Freshdesk,Category,Users,https://mjolnirucph-help.freshdesk.com/support/solutions/154000144139,User Accounts,keep,,
+Freshdesk,Folder,Users,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000360372,User Accounts,keep,,
+Freshdesk,Category,Mjolnir Archives: Presentations & Emails,https://mjolnirucph-help.freshdesk.com/support/solutions/154000147995,Historical Content,archive,,
+Freshdesk,Folder,Presentations,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000369980,Historical Content,archive,,
+Freshdesk,Folder,Emails,https://mjolnirucph-help.freshdesk.com/support/solutions/folders/154000369981,Historical Content,archive,,
+Freshdesk,Article,About Mjølnir,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000132307-about-mj%C3%B8lnir,Getting Started,keep,257,"Fri, 1 Mar, 2024 at 3:39 PM"
+Freshdesk,Article,Connect personal GitHub account to Mjolnir,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000150845-connect-personal-github-account-to-mjolnir,Login & VPN,keep,242,"Thu, 16 May, 2024 at 10:58 AM"
+Freshdesk,Article,New software request,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000127260-new-software-request,Software,keep,87,"Sun, 31 Mar, 2024 at 9:37 PM"
+Freshdesk,Article,Software installation digest email,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139753-software-installation-digest-email,Software,keep,89,"Sun, 31 Mar, 2024 at 10:43 PM"
+Freshdesk,Article,BioRender account for CEH members,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000146613-biorender-account-for-ceh-members,Software,keep,166,"Sun, 14 Apr, 2024 at 1:13 AM"
+Freshdesk,Article,Using the Normal QoS for General Compute Jobs,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218954-using-the-normal-qos-for-general-compute-jobs,Slurm,keep,262,"Sat, 18 Apr at 8:11 PM"
+Freshdesk,Article,Using the filetransfer QoS for Data Transfers,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218387-using-the-filetransfer-qos-for-data-transfers,Storage,keep,401,"Mon, 3 Mar, 2025 at 3:41 PM"
+Freshdesk,Article,Using the Teaching QoS for Educational Sessions,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218956-using-the-teaching-qos-for-educational-sessions,Slurm,keep,273,"Mon, 3 Mar, 2025 at 4:05 PM"
+Freshdesk,Article,Available databases,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000132311-available-databases,Databases,keep,150,"Wed, 8 May, 2024 at 9:07 PM"
+Freshdesk,Article,Request a new database,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000150174-request-a-new-database,Databases,keep,101,"Wed, 8 May, 2024 at 9:23 PM"
+Freshdesk,Article,Request access to shared databases as a non-mjolnir user,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000151847-request-access-to-shared-databases-as-a-non-mjolnir-user,Databases,keep,180,"Thu, 16 May, 2024 at 10:57 AM"
+Freshdesk,Article,VPN access and login to Mjolnir,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000127142-vpn-access-and-login-to-mjolnir,Login & VPN,keep,270,"Tue, 25 Jun, 2024 at 1:46 PM"
+Freshdesk,Article,SSH shortcut,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000127144-ssh-shortcut,Login & VPN,keep,114,"Mon, 15 Apr, 2024 at 1:19 PM"
+Freshdesk,Article,SSH Key connection to mjolnirgate,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000146700-ssh-key-connection-to-mjolnirgate,Login & VPN,keep,115,"Mon, 15 Apr, 2024 at 1:28 PM"
+Freshdesk,Article,Hardware,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000127145-hardware,Hardware,keep,195,"Sat, 30 Mar, 2024 at 12:40 PM"
+Freshdesk,Article,Disruptions,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139619-disruptions,Troubleshooting,keep,57,"Sat, 30 Mar, 2024 at 12:49 PM"
+Freshdesk,Article,Personal project folder,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000132310-personal-project-folder,Storage,keep,242,"Sat, 11 May, 2024 at 3:03 AM"
+Freshdesk,Article,Snapshot backup,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000132312-snapshot-backup,Storage,keep,188,"Wed, 27 Mar, 2024 at 9:04 PM"
+Freshdesk,Article,FileZilla and PuTTY,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000133138-filezilla-and-putty,Login & VPN,keep,134,"Tue, 7 May, 2024 at 9:31 AM"
+Freshdesk,Article,perl: warning: Setting locale failed error,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000135377-perl-warning-setting-locale-failed-error,Troubleshooting,keep,224,"Tue, 12 Mar, 2024 at 8:04 PM"
+Freshdesk,Article,Discord server,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139755-discord-server,Troubleshooting,keep,86,"Sun, 31 Mar, 2024 at 10:47 PM"
+Freshdesk,Article,New user request,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139735-new-user-request,User Accounts,keep,77,"Sun, 31 Mar, 2024 at 9:58 PM"
+Freshdesk,Article,Add/change primary email and change communication preference,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000139737-add-change-primary-email-and-change-communication-preference,User Accounts,keep,78,"Sun, 31 Mar, 2024 at 10:12 PM"
+Freshdesk,Article,2024-04-04 CEHall Section Meeting,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000141416-2024-04-04-cehall-section-meeting,Historical Content,archive,87,"Thu, 4 Apr, 2024 at 11:07 AM"
+Freshdesk,Article,2025-03-03 - New QoS & Partition Limits on Mjolnir: Optimized Resource Allocation for Faster Job Scheduling!,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218945-2025-03-03-new-qos-partition-limits-on-mjolnir-optimized-resource-allocation-for-faster-job-sche,Historical Content,archive,629,"Mon, 3 Mar, 2025 at 3:26 PM"
+Freshdesk,Article,2025-02-28 - Scheduled Maintenance & Important Changes at Mjolnir from Monday and ahead,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218847-2025-02-28-scheduled-maintenance-important-changes-at-mjolnir-from-monday-and-ahead,Historical Content,archive,683,"Fri, 28 Feb, 2025 at 12:23 PM"
+Freshdesk,Article,2025-02-24 - Urgent: Accelerating Data Migration from Mjolnir1,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218301-2025-02-24-urgent-accelerating-data-migration-from-mjolnir1,Historical Content,archive,629,"Mon, 24 Feb, 2025 at 2:09 PM"
+Freshdesk,Article,"2025-01-15 - Happy new year, storage cost and the closing of Mjolnir1",https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000214996-2025-01-15-happy-new-year-storage-cost-and-the-closing-of-mjolnir1,Historical Content,archive,1173,"Wed, 15 Jan, 2025 at 2:43 PM"
+Freshdesk,Article,"2024-07-04 - Prewarning 1/2 - Scheduled Maintenance on Mjolnir - August 14, 2024",https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000164388-2024-07-04-prewarning-1-2-scheduled-maintenance-on-mjolnir-august-14-2024,Historical Content,archive,211,"Thu, 4 Jul, 2024 at 6:14 PM"
+Freshdesk,Article,New Globe-wide Database Repository Now Accessible to Globe KU-Research-IT-hosted compute systems,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000153079-new-globe-wide-database-repository-now-accessible-to-globe-ku-research-it-hosted-compute-systems,Databases,keep,452,"Wed, 22 May, 2024 at 10:59 PM"
+Freshdesk,Article,2024-06-27 - Summer Vacation Notice and Support Ticket Information,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000164386-2024-06-27-summer-vacation-notice-and-support-ticket-information,Historical Content,archive,270,"Thu, 4 Jul, 2024 at 6:15 PM"
+Freshdesk,Article,2024-01-09 - 2023 update and a 30 Seconds task to ensure your continued access to SLURM,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000215015-2024-01-09-2023-update-and-a-30-seconds-task-to-ensure-your-continued-access-to-slurm,Historical Content,archive,738,"Tue, 18 Feb, 2025 at 8:15 PM"
+Freshdesk,Article,"2025-05- 24 - Mjolnir Update: New Software Location, System Expansion, and Storage Reporting",https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000227950-2025-05-24-mjolnir-update-new-software-location-system-expansion-and-storage-reporting,Historical Content,archive,539,"Fri, 23 May, 2025 at 8:46 PM"
+Freshdesk,Article,2025-02-14 - Important: Data Migration and Storage Transition Updates,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000217885-2025-02-14-important-data-migration-and-storage-transition-updates,Historical Content,archive,510,"Tue, 18 Feb, 2025 at 8:14 PM"
+Freshdesk,Article,Using the CPU partition for General Compute Jobs,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218950-using-the-cpu-partition-for-general-compute-jobs,Slurm,keep,178,"Mon, 3 Mar, 2025 at 3:57 PM"
+Freshdesk,Article,Using the GPU partition for GPU-Intensive Jobs,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218951-using-the-gpu-partition-for-gpu-intensive-jobs,Slurm,keep,189,"Mon, 3 Mar, 2025 at 4:02 PM"
+Freshdesk,Article,Using the Teaching partition for Educational Jobs,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000218952-using-the-teaching-partition-for-educational-jobs,Slurm,keep,183,"Mon, 3 Mar, 2025 at 4:03 PM"
+Freshdesk,Article,2026 - 05 - 19 - New low-priority lazyqueue available on Mjolnir,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000254180-2026-05-19-new-low-priority-lazyqueue-available-on-mjolnir,Historical Content,archive,311,"Tue, 19 May at 1:42 PM"
+Freshdesk,Article,2024-03-27 - Important Updates on Mjolnir Maintenance and System Changes Effective 12 April 2024,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000141417-2024-03-27-important-updates-on-mjolnir-maintenance-and-system-changes-effective-12-april-2024,Historical Content,archive,618,"Thu, 4 Apr, 2024 at 11:11 AM"
+Freshdesk,Article,2024-04-11 - REMINDER- Important Updates on Mjolnir Maintenance and System Changes,https://mjolnirucph-help.freshdesk.com/support/solutions/articles/154000146179-2024-04-11-reminder-important-updates-on-mjolnir-maintenance-and-system-changes,Historical Content,archive,297,"Fri, 12 Apr, 2024 at 1:46 PM"
+ReadTheDocs,Page,Welcome to Mjolnirs’s documentation!,https://mjolnir-ucph.readthedocs.io/en/latest/index.html,Getting Started,keep,232,
+ReadTheDocs,Page,What is Mjolnir?,https://mjolnir-ucph.readthedocs.io/en/latest/mjolnir.html,Getting Started,merge_or_redirect,14,
+ReadTheDocs,Page,VPN access and login,https://mjolnir-ucph.readthedocs.io/en/latest/vpn.html,Login & VPN,keep,28,
+ReadTheDocs,Page,Hardware,https://mjolnir-ucph.readthedocs.io/en/latest/hardware.html,Hardware,merge_or_redirect,12,
+ReadTheDocs,Page,Project/data folders,https://mjolnir-ucph.readthedocs.io/en/latest/project_data_folders.html,Storage,merge_or_redirect,13,
+ReadTheDocs,Page,Databases,https://mjolnir-ucph.readthedocs.io/en/latest/databases.html,Databases,merge_or_redirect,12,
+ReadTheDocs,Page,Backup,https://mjolnir-ucph.readthedocs.io/en/latest/backup.html,Storage,merge_or_redirect,12,
+ReadTheDocs,Page,Disruptions,https://mjolnir-ucph.readthedocs.io/en/latest/disruptions.html,Troubleshooting,merge_or_redirect,12,
+ReadTheDocs,Page,Submitting jobs,https://mjolnir-ucph.readthedocs.io/en/latest/submitting_jobs.html,Job Submission,keep,1593,
+ReadTheDocs,Page,Canceling Jobs,https://mjolnir-ucph.readthedocs.io/en/latest/cancel_jobs.html,Slurm,keep,331,
+ReadTheDocs,Page,Monitoring Jobs,https://mjolnir-ucph.readthedocs.io/en/latest/monitor_jobs.html,Slurm,keep,1017,
+ReadTheDocs,Page,Software,https://mjolnir-ucph.readthedocs.io/en/latest/software.html,Software,keep,911,
+ReadTheDocs,Page,Software installation digest email,https://mjolnir-ucph.readthedocs.io/en/latest/software_email_digest.html,Software,merge_or_redirect,15,
+ReadTheDocs,Page,New software request,https://mjolnir-ucph.readthedocs.io/en/latest/newsoftware.html,Software,merge_or_redirect,14,
+ReadTheDocs,Page,New user request,https://mjolnir-ucph.readthedocs.io/en/latest/newuser.html,User Accounts,merge_or_redirect,14,
+ReadTheDocs,Page,Add/change primary email and change communication preference,https://mjolnir-ucph.readthedocs.io/en/latest/add_change_primary_email.html,User Accounts,merge_or_redirect,18,
+ReadTheDocs,Page,Tips & Tricks,https://mjolnir-ucph.readthedocs.io/en/latest/tips.html,Troubleshooting,keep,99,
+Main website,Page,Mjolnir - a Globe computing cluster,https://mjolnir-ucph.dk/,Getting Started,merge_or_reference,208,
+Main website,Page,Mjolnir - a Globe computing cluster,https://mjolnir-ucph.dk/index.html,Getting Started,merge_or_reference,208,
+Main website,Page,PI area,https://mjolnir-ucph.dk/PI_area.html,Administration,keep,105,
+Main website,Page,About Mjolnir,https://mjolnir-ucph.dk/about.html,Getting Started,merge_or_reference,257,
+Main website,Page,Hardware,https://mjolnir-ucph.dk/Hardware.html,Hardware,merge_or_reference,163,
+Main website,Page,Software,https://mjolnir-ucph.dk/software.html,Software,merge_or_reference,77,
+Main website,Page,Databases,https://mjolnir-ucph.dk/databases.html,Databases,merge_or_reference,135,
+Main website,Page,job usage statistics,https://mjolnir-ucph.dk/Usage_Statistics.html,Job Submission,merge_or_reference,72,
+Main website,Page,Current cluster Utilization,https://mjolnir-ucph.dk/current_cluster_utilization.html,Hardware,merge_or_reference,69,
+Main website,Page,Cluster utilization over time,https://mjolnir-ucph.dk/cluster_utilization_over_time.html,Hardware,merge_or_reference,70,
+Main website,Page,Job statistics,https://mjolnir-ucph.dk/job_statistics.html,Job Submission,merge_or_reference,70,
+Main website,Page,Knowledgebase,https://mjolnir-ucph.dk/knowledgebase.html,FAQ,merge_or_reference,55,
+Main website,Page,Anders Johannes Hansen,https://mjolnir-ucph.dk/Anders_Johannes_Hansen.html,Administration,keep,87,
+Main website,Page,Antton Alberdi Estibaritz,https://mjolnir-ucph.dk/Antton_Alberdi_Estibaritz.html,Administration,keep,87,
+Main website,Page,Carsten Rahbek,https://mjolnir-ucph.dk/Carsten_Rahbek.html,Administration,keep,85,
+Main website,Page,Christopher James Barnes,https://mjolnir-ucph.dk/Christopher_James_Barnes.html,Administration,keep,87,
+Main website,Page,David Bravo Nogues,https://mjolnir-ucph.dk/David_Bravo_Nogues.html,Administration,keep,87,
+Main website,Page,Eline Lorenzen,https://mjolnir-ucph.dk/Eline_Lorenzen.html,Administration,keep,85,
+Main website,Page,Enrico Cappellini,https://mjolnir-ucph.dk/Enrico_Cappellini.html,Administration,keep,85,
+Main website,Page,Frido Welker,https://mjolnir-ucph.dk/Frido_Welker.html,Administration,keep,85,
+Main website,Page,Hannes Schroeder,https://mjolnir-ucph.dk/Hannes_Schroeder.html,Administration,keep,85,
+Main website,Page,Hernan Eduardo Morales Villegas,https://mjolnir-ucph.dk/Hernan_Eduardo_Morales_Villegas.html,Administration,keep,89,
+Main website,Page,Ida Hartvig,https://mjolnir-ucph.dk/Ida_Hartvig.html,Administration,keep,85,
+Main website,Page,Jazmin Ramos Madrigal,https://mjolnir-ucph.dk/Jazmin_Ramos_Madrigal.html,Administration,keep,87,
+Main website,Page,Kristine Bohmann,https://mjolnir-ucph.dk/Kristine_Bohmann.html,Administration,keep,85,
+Main website,Page,Laurits Skov,https://mjolnir-ucph.dk/Laurits_Skov.html,Administration,keep,85,
+Main website,Page,Matthew James Collins,https://mjolnir-ucph.dk/Matthew_James_Collins.html,Administration,keep,87,
+Main website,Page,Michael Krabbe Borregaard,https://mjolnir-ucph.dk/Michael_Krabbe_Borregaard.html,Administration,keep,87,
+Main website,Page,Morten Tange Olsen,https://mjolnir-ucph.dk/Morten_Tange_Olsen.html,Administration,keep,87,
+Main website,Page,Morten Tønsberg Limborg,https://mjolnir-ucph.dk/Morten_Tonsberg_Limborg.html,Administration,keep,87,
+Main website,Page,Ostaizka Aizpurua Arrieta,https://mjolnir-ucph.dk/Ostaizka_Aizpurua_Arrieta.html,Administration,keep,87,
+Main website,Page,Peter Andrew Hosner,https://mjolnir-ucph.dk/Peter_Andrew_Hosner.html,Administration,keep,87,
+Main website,Page,Rute Andreia Rodrigues da Fonseca,https://mjolnir-ucph.dk/Rute_Andreia_Rodrigues_da_Fonseca.html,Administration,keep,91,
+Main website,Page,Sandra Breum Andersen,https://mjolnir-ucph.dk/Sandra_Breum_Andersen.html,Administration,keep,87,
+Main website,Page,Shyam Gopalakrishnan,https://mjolnir-ucph.dk/Shyam_Gopalakrishnan.html,Administration,keep,85,
+Main website,Page,Thomas Sicheritz-Ponten,https://mjolnir-ucph.dk/Thomas_Sicheritz-Ponten.html,Administration,keep,85,
+Main website,Page,Tom Gilbert,https://mjolnir-ucph.dk/Tom_Gilbert.html,Administration,keep,85,
+Main website,Page,Disruptions,https://mjolnir-ucph.dk/disruptions.html,Troubleshooting,merge_or_reference,37,

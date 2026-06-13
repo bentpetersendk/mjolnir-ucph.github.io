@@ -28,6 +28,6 @@ Repeated misuse should be handled through support and PI/project-owner escalatio
 
 ## Related pages
 
-- [Login nodes vs compute nodes](../login-vs-compute-nodes/)
-- [Support scope](../support-scope/)
-- [Maintenance and disruption policy](../maintenance-policy/)
+- [Login nodes vs compute nodes](../../getting-started/login-vs-compute-nodes/)
+- [Support scope](../../policies/support-scope/)
+- [Maintenance and disruption policy](../../policies/maintenance-policy/)

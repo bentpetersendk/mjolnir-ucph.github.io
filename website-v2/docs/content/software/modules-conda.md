@@ -30,7 +30,7 @@ Document software versions in job scripts to make analyses reproducible.
 
 ## Related pages
 
-- [Software catalog](../software-catalog/)
-- [Request software](../request-software/)
-- [BioRender access](../biorender/)
-- [Storage and software FAQ](../storage-software-faq/)
+- [Software catalog](../../software/software-catalog/)
+- [Request software](../../software/request-software/)
+- [BioRender access](../../software/biorender/)
+- [Storage and software FAQ](../../faq/storage-software-faq/)

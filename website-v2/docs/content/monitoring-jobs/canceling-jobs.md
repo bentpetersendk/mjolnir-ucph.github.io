@@ -28,5 +28,5 @@ Cancel work that is no longer needed to free resources for other users.
 
 ## Related pages
 
-- [Monitoring jobs](../monitoring-jobs/)
-- [Cluster utilization and statistics](../cluster-utilization/)
+- [Monitoring jobs](../../monitoring-jobs/monitoring-jobs/)
+- [Cluster utilization and statistics](../../monitoring-jobs/cluster-utilization/)

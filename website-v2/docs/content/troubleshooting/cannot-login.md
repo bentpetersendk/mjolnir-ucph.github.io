@@ -28,8 +28,8 @@ If VPN works but Mjolnir login fails, submit a Mjolnir support ticket. If VPN it
 
 ## Related pages
 
-- [VPN and SSH access](../vpn-ssh-access/)
-- [SSH shortcuts, keys, and GitHub](../ssh-shortcuts-keys/)
-- [Job is pending](../job-pending/)
-- [Job failed or was killed](../job-failed/)
-- [Perl locale warning](../perl-locale-warning/)
+- [VPN and SSH access](../../accounts-access/vpn-ssh-access/)
+- [SSH shortcuts, keys, and GitHub](../../accounts-access/ssh-shortcuts-keys/)
+- [Job is pending](../../troubleshooting/job-pending/)
+- [Job failed or was killed](../../troubleshooting/job-failed/)
+- [Perl locale warning](../../troubleshooting/perl-locale-warning/)

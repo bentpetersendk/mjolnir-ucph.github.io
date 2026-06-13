@@ -30,7 +30,7 @@ Project ownership, cleanup, and long-term responsibility should be clear before 
 
 ## Related pages
 
-- [Data transfer](../data-transfer/)
-- [Snapshot backup](../backup-snapshots/)
-- [Storage cost, quota, and cleanup](../storage-policy/)
-- [Storage and software FAQ](../storage-software-faq/)
+- [Data transfer](../../storage/data-transfer/)
+- [Snapshot backup](../../storage/backup-snapshots/)
+- [Storage cost, quota, and cleanup](../../storage/storage-policy/)
+- [Storage and software FAQ](../../faq/storage-software-faq/)

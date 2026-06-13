@@ -30,8 +30,8 @@ If you are unsure whether you are eligible, ask your PI or submit a support tick
 
 ## Related pages
 
-- [What is Mjolnir?](../what-is-mjolnir/)
-- [New user checklist](../new-user-checklist/)
-- [Submit your first job](../first-job/)
-- [Login nodes vs compute nodes](../login-vs-compute-nodes/)
-- [PI responsibilities](../pi-responsibilities/)
+- [What is Mjolnir?](../../getting-started/what-is-mjolnir/)
+- [New user checklist](../../getting-started/new-user-checklist/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Login nodes vs compute nodes](../../getting-started/login-vs-compute-nodes/)
+- [PI responsibilities](../../administration/pi-responsibilities/)

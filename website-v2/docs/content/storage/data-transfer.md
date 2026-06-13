@@ -30,6 +30,6 @@ Use the filetransfer QoS only for data migration and transfer workflows where it
 
 ## Related pages
 
-- [Project folders](../project-folders/)
-- [Snapshot backup](../backup-snapshots/)
-- [Storage cost, quota, and cleanup](../storage-policy/)
+- [Project folders](../../storage/project-folders/)
+- [Snapshot backup](../../storage/backup-snapshots/)
+- [Storage cost, quota, and cleanup](../../storage/storage-policy/)

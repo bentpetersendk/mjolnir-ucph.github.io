@@ -28,7 +28,7 @@ If the problem is reproducible and resource requests look correct, include the j
 
 ## Related pages
 
-- [Memory allocation guide](../memory-allocation/)
-- [GPU computing overview](../gpu-overview/)
-- [GPU job template](../gpu-job-template/)
-- [Job failed or was killed](../job-failed/)
+- [Memory allocation guide](../../slurm/memory-allocation/)
+- [GPU computing overview](../../gpu-computing/gpu-overview/)
+- [GPU job template](../../gpu-computing/gpu-job-template/)
+- [Job failed or was killed](../../troubleshooting/job-failed/)

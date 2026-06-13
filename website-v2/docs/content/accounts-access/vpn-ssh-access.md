@@ -32,7 +32,7 @@ If VPN works but SSH login fails, create a support ticket. VPN client problems s
 
 ## Related pages
 
-- [Request access](../request-access/)
-- [SSH shortcuts, keys, and GitHub](../ssh-shortcuts-keys/)
-- [Primary email and communication preferences](../email-preferences/)
-- [Cannot log in](../cannot-login/)
+- [Request access](../../accounts-access/request-access/)
+- [SSH shortcuts, keys, and GitHub](../../accounts-access/ssh-shortcuts-keys/)
+- [Primary email and communication preferences](../../accounts-access/email-preferences/)
+- [Cannot log in](../../troubleshooting/cannot-login/)

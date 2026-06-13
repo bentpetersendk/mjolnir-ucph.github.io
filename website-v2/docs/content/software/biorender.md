@@ -28,7 +28,7 @@ Keep this page short and link to the relevant request form or support path.
 
 ## Related pages
 
-- [Modules and Conda environments](../modules-conda/)
-- [Software catalog](../software-catalog/)
-- [Request software](../request-software/)
-- [Storage and software FAQ](../storage-software-faq/)
+- [Modules and Conda environments](../../software/modules-conda/)
+- [Software catalog](../../software/software-catalog/)
+- [Request software](../../software/request-software/)
+- [Storage and software FAQ](../../faq/storage-software-faq/)

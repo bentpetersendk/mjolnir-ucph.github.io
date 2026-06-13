@@ -32,7 +32,7 @@ The new portal is the canonical documentation source. Freshdesk is reserved for 
 
 ## Related pages
 
-- [Who can use Mjolnir?](../who-can-use-mjolnir/)
-- [New user checklist](../new-user-checklist/)
-- [Submit your first job](../first-job/)
-- [Login nodes vs compute nodes](../login-vs-compute-nodes/)
+- [Who can use Mjolnir?](../../getting-started/who-can-use-mjolnir/)
+- [New user checklist](../../getting-started/new-user-checklist/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Login nodes vs compute nodes](../../getting-started/login-vs-compute-nodes/)

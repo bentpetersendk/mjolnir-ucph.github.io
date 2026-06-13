@@ -32,7 +32,7 @@ Users should choose the narrowest suitable partition/QoS and request realistic r
 
 ## Related pages
 
-- [Slurm basics](../slurm-basics/)
-- [Queue waiting times and pending reasons](../queue-waiting-times/)
-- [Memory allocation guide](../memory-allocation/)
-- [Lazy queue and low-priority work](../lazyqueue/)
+- [Slurm basics](../../slurm/slurm-basics/)
+- [Queue waiting times and pending reasons](../../slurm/queue-waiting-times/)
+- [Memory allocation guide](../../slurm/memory-allocation/)
+- [Lazy queue and low-priority work](../../slurm/lazyqueue/)

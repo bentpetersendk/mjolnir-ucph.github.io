@@ -28,5 +28,5 @@ Keep the job ID from `sbatch`; it is the handle for later inspection.
 
 ## Related pages
 
-- [Canceling jobs](../canceling-jobs/)
-- [Cluster utilization and statistics](../cluster-utilization/)
+- [Canceling jobs](../../monitoring-jobs/canceling-jobs/)
+- [Cluster utilization and statistics](../../monitoring-jobs/cluster-utilization/)

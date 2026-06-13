@@ -30,8 +30,8 @@ Q: How do I cancel a job? A: Use `scancel <jobid>`.
 
 ## Related pages
 
-- [Submit your first job](../first-job/)
-- [Slurm basics](../slurm-basics/)
-- [Job is pending](../job-pending/)
-- [Accounts FAQ](../accounts-faq/)
-- [Storage and software FAQ](../storage-software-faq/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Slurm basics](../../slurm/slurm-basics/)
+- [Job is pending](../../troubleshooting/job-pending/)
+- [Accounts FAQ](../../faq/accounts-faq/)
+- [Storage and software FAQ](../../faq/storage-software-faq/)

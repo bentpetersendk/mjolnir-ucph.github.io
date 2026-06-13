@@ -28,6 +28,6 @@ Throttle large arrays where appropriate so they do not overwhelm shared resource
 
 ## Related pages
 
-- [Submitting jobs with sbatch](../submitting-jobs/)
-- [Interactive jobs with srun](../interactive-jobs/)
-- [Job template library](../job-templates/)
+- [Submitting jobs with sbatch](../../job-submission/submitting-jobs/)
+- [Interactive jobs with srun](../../job-submission/interactive-jobs/)
+- [Job template library](../../job-submission/job-templates/)

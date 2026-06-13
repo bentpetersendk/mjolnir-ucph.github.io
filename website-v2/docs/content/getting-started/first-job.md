@@ -28,8 +28,8 @@ Start with conservative resources. Request only the CPUs, memory, runtime, and G
 
 ## Related pages
 
-- [What is Mjolnir?](../what-is-mjolnir/)
-- [Who can use Mjolnir?](../who-can-use-mjolnir/)
-- [New user checklist](../new-user-checklist/)
-- [Login nodes vs compute nodes](../login-vs-compute-nodes/)
-- [Slurm basics](../slurm-basics/)
+- [What is Mjolnir?](../../getting-started/what-is-mjolnir/)
+- [Who can use Mjolnir?](../../getting-started/who-can-use-mjolnir/)
+- [New user checklist](../../getting-started/new-user-checklist/)
+- [Login nodes vs compute nodes](../../getting-started/login-vs-compute-nodes/)
+- [Slurm basics](../../slurm/slurm-basics/)

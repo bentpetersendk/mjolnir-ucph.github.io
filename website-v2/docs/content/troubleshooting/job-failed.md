@@ -28,8 +28,8 @@ When opening a support ticket, include job ID, script, output/error logs, and th
 
 ## Related pages
 
-- [Memory allocation guide](../memory-allocation/)
-- [GPU troubleshooting](../gpu-troubleshooting/)
-- [Cannot log in](../cannot-login/)
-- [Job is pending](../job-pending/)
-- [Perl locale warning](../perl-locale-warning/)
+- [Memory allocation guide](../../slurm/memory-allocation/)
+- [GPU troubleshooting](../../gpu-computing/gpu-troubleshooting/)
+- [Cannot log in](../../troubleshooting/cannot-login/)
+- [Job is pending](../../troubleshooting/job-pending/)
+- [Perl locale warning](../../troubleshooting/perl-locale-warning/)

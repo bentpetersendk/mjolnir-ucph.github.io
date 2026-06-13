@@ -30,5 +30,5 @@ Historical usage pages should not replace live monitoring or job-specific Slurm 
 
 ## Related pages
 
-- [Monitoring jobs](../monitoring-jobs/)
-- [Canceling jobs](../canceling-jobs/)
+- [Monitoring jobs](../../monitoring-jobs/monitoring-jobs/)
+- [Canceling jobs](../../monitoring-jobs/canceling-jobs/)

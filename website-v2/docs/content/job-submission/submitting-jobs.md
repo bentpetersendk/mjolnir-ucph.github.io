@@ -28,8 +28,8 @@ Write output and error logs to predictable paths so failed jobs can be diagnosed
 
 ## Related pages
 
-- [Submit your first job](../first-job/)
-- [Interactive jobs with srun](../interactive-jobs/)
-- [Job arrays](../job-arrays/)
-- [Job template library](../job-templates/)
-- [GPU job template](../gpu-job-template/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Interactive jobs with srun](../../job-submission/interactive-jobs/)
+- [Job arrays](../../job-submission/job-arrays/)
+- [Job template library](../../job-submission/job-templates/)
+- [GPU job template](../../gpu-computing/gpu-job-template/)

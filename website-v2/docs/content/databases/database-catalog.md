@@ -28,7 +28,7 @@ Entries should distinguish current databases from deprecated or archived databas
 
 ## Related pages
 
-- [Software catalog](../software-catalog/)
-- [Shared database repository](../database-overview/)
-- [Request a database](../request-database/)
-- [Non-Mjolnir shared database access](../shared-database-access/)
+- [Software catalog](../../software/software-catalog/)
+- [Shared database repository](../../databases/database-overview/)
+- [Request a database](../../databases/request-database/)
+- [Non-Mjolnir shared database access](../../databases/shared-database-access/)

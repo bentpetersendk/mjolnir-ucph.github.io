@@ -28,6 +28,6 @@ Administration guidance complements, but does not replace, technical user docume
 
 ## Related pages
 
-- [Who can use Mjolnir?](../who-can-use-mjolnir/)
-- [User administration](../user-administration/)
-- [Documentation governance](../content-governance/)
+- [Who can use Mjolnir?](../../getting-started/who-can-use-mjolnir/)
+- [User administration](../../administration/user-administration/)
+- [Documentation governance](../../administration/content-governance/)

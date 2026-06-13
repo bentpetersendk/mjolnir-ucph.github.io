@@ -30,8 +30,8 @@ This rule protects every user by keeping the shared entrance node responsive.
 
 ## Related pages
 
-- [What is Mjolnir?](../what-is-mjolnir/)
-- [Who can use Mjolnir?](../who-can-use-mjolnir/)
-- [New user checklist](../new-user-checklist/)
-- [Submit your first job](../first-job/)
-- [Login node policy](../login-node-policy/)
+- [What is Mjolnir?](../../getting-started/what-is-mjolnir/)
+- [Who can use Mjolnir?](../../getting-started/who-can-use-mjolnir/)
+- [New user checklist](../../getting-started/new-user-checklist/)
+- [Submit your first job](../../getting-started/first-job/)
+- [Login node policy](../../policies/login-node-policy/)

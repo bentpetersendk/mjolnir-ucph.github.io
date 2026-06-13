@@ -30,6 +30,6 @@ This page consolidates Freshdesk access guidance and the Globe-wide database rep
 
 ## Related pages
 
-- [Shared database repository](../database-overview/)
-- [Request a database](../request-database/)
-- [Database catalog](../database-catalog/)
+- [Shared database repository](../../databases/database-overview/)
+- [Request a database](../../databases/request-database/)
+- [Database catalog](../../databases/database-catalog/)

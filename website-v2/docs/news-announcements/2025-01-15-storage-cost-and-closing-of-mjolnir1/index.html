@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2025-01-15 Storage cost and closing of Mjolnir1 | Mjolnir Documentation</title>
+  <meta name="description" content="Historical storage and migration communication.">
+  <link rel="stylesheet" href="../../assets/docs.css">
+  <script defer src="../../assets/docs.js"></script>
+</head>
+<body class="" data-doc-category="News &amp; Announcements" data-doc-type="archive" data-doc-status="archive" data-doc-title="2025-01-15 Storage cost and closing of Mjolnir1" data-doc-description="Historical storage and migration communication." data-pagefind-filter="category[data-doc-category], type[data-doc-type], status[data-doc-status]" data-pagefind-meta="title[data-doc-title], description[data-doc-description]">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../../index.html" aria-label="Mjolnir Documentation home">
+      <span class="brand-mark">M</span>
+      <span><strong>Mjolnir</strong><small>Documentation</small></span>
+    </a>
+    <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <div class="global-search" role="search">
+      <input id="global-search" type="search" placeholder="Search docs, FAQs, policies, software..." autocomplete="off">
+      <div id="search-results" class="search-results" aria-live="polite"></div>
+    </div>
+    <nav class="top-links" aria-label="Global">
+      <a href="../../news-announcements/current-announcements/">News</a>
+      <a href="../../troubleshooting/cannot-login/">Help</a>
+      <a href="https://mjolnirucph-help.freshdesk.com/support/tickets/new">Support ticket</a>
+    </nav>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Documentation navigation">
+      <nav>
+    <a class="side-home" href="../../index.html">Documentation Home</a>
+    <section class="side-section ">
+        <a class="side-title" href="../../getting-started/">Getting Started</a>
+        <div class="side-items"><a href="../../getting-started/what-is-mjolnir/">What is Mjolnir?</a><a href="../../getting-started/who-can-use-mjolnir/">Who can use Mjolnir?</a><a href="../../getting-started/new-user-checklist/">New user checklist</a><a href="../../getting-started/first-job/">Submit your first job</a><a href="../../getting-started/login-vs-compute-nodes/">Login nodes vs compute nodes</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../accounts-access/">Accounts &amp; Access</a>
+        <div class="side-items"><a href="../../accounts-access/request-access/">Request access</a><a href="../../accounts-access/vpn-ssh-access/">VPN and SSH access</a><a href="../../accounts-access/ssh-shortcuts-keys/">SSH shortcuts, keys, and GitHub</a><a href="../../accounts-access/email-preferences/">Primary email and communication preferences</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../storage/">Storage</a>
+        <div class="side-items"><a href="../../storage/project-folders/">Project folders</a><a href="../../storage/data-transfer/">Data transfer</a><a href="../../storage/backup-snapshots/">Snapshot backup</a><a href="../../storage/storage-policy/">Storage cost, quota, and cleanup</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../slurm/">Slurm</a>
+        <div class="side-items"><a href="../../slurm/slurm-basics/">Slurm basics</a><a href="../../slurm/partitions-qos-fairshare/">Partitions, QoS, and fairshare</a><a href="../../slurm/queue-waiting-times/">Queue waiting times and pending reasons</a><a href="../../slurm/memory-allocation/">Memory allocation guide</a><a href="../../slurm/lazyqueue/">Lazy queue and low-priority work</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../job-submission/">Job Submission</a>
+        <div class="side-items"><a href="../../job-submission/submitting-jobs/">Submitting jobs with sbatch</a><a href="../../job-submission/interactive-jobs/">Interactive jobs with srun</a><a href="../../job-submission/job-arrays/">Job arrays</a><a href="../../job-submission/job-templates/">Job template library</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../monitoring-jobs/">Monitoring Jobs</a>
+        <div class="side-items"><a href="../../monitoring-jobs/monitoring-jobs/">Monitoring jobs</a><a href="../../monitoring-jobs/canceling-jobs/">Canceling jobs</a><a href="../../monitoring-jobs/cluster-utilization/">Cluster utilization and statistics</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../software/">Software</a>
+        <div class="side-items"><a href="../../software/modules-conda/">Modules and Conda environments</a><a href="../../software/software-catalog/">Software catalog</a><a href="../../software/request-software/">Request software</a><a href="../../software/biorender/">BioRender access</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../databases/">Databases</a>
+        <div class="side-items"><a href="../../databases/database-overview/">Shared database repository</a><a href="../../databases/request-database/">Request a database</a><a href="../../databases/shared-database-access/">Non-Mjolnir shared database access</a><a href="../../databases/database-catalog/">Database catalog</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../gpu-computing/">GPU Computing</a>
+        <div class="side-items"><a href="../../gpu-computing/gpu-overview/">GPU computing overview</a><a href="../../gpu-computing/gpu-job-template/">GPU job template</a><a href="../../gpu-computing/gpu-troubleshooting/">GPU troubleshooting</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../policies/">Policies</a>
+        <div class="side-items"><a href="../../policies/login-node-policy/">Login node policy</a><a href="../../policies/support-scope/">Support scope</a><a href="../../policies/maintenance-policy/">Maintenance and disruption policy</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../troubleshooting/">Troubleshooting</a>
+        <div class="side-items"><a href="../../troubleshooting/cannot-login/">Cannot log in</a><a href="../../troubleshooting/job-pending/">Job is pending</a><a href="../../troubleshooting/job-failed/">Job failed or was killed</a><a href="../../troubleshooting/perl-locale-warning/">Perl locale warning</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../faq/">Frequently Asked Questions</a>
+        <div class="side-items"><a href="../../faq/accounts-faq/">Accounts FAQ</a><a href="../../faq/slurm-faq/">Slurm FAQ</a><a href="../../faq/storage-software-faq/">Storage and software FAQ</a></div>
+      </section><section class="side-section ">
+        <a class="side-title" href="../../administration/">Administration</a>
+        <div class="side-items"><a href="../../administration/pi-responsibilities/">PI responsibilities</a><a href="../../administration/user-administration/">User administration</a><a href="../../administration/content-governance/">Documentation governance</a></div>
+      </section><section class="side-section is-active">
+        <a class="side-title" href="../../news-announcements/">News &amp; Announcements</a>
+        <div class="side-items"><a href="../../news-announcements/current-announcements/">Current announcements</a><a href="../../news-announcements/release-notes/">Release notes</a></div>
+      </section>
+  </nav>
+    </aside>
+    <main id="main" class="content" data-pagefind-body>
+      
+    <nav class="breadcrumbs" aria-label="Breadcrumbs"><a href="../../index.html">Home</a> <span>/</span> <a href="../../news-announcements/">News &amp; Announcements</a> <span>/</span> <span>2025-01-15 Storage cost and closing of Mjolnir1</span></nav>
+    <article class="doc-article">
+      <div class="article-meta">
+        <span>News &amp; Announcements</span>
+        <span>archive</span>
+        <span>archive</span>
+        <span>Reviewed 2026-06-13</span>
+      </div>
+      <h1>2025-01-15 Storage cost and closing of Mjolnir1</h1>
+<p>Historical storage and migration communication.</p>
+<p>This page is preserved as historical content. Do not treat it as current procedure unless linked from a current canonical page.</p>
+<p>Current operational guidance lives in the relevant category pages.</p>
+<h2>Source consolidation</h2>
+<ul>
+<li>Freshdesk archive</li>
+</ul>
+<h2>Related pages</h2>
+<ul>
+<li>[Current announcements](../current-announcements/)</li>
+<li>[Release notes](../release-notes/)</li>
+<li>[Historical archive](../archive-index/)</li>
+<li>[2024-04-04 CEHall Section Meeting](../2024-04-04-cehall-section-meeting/)</li>
+<li>[2024-03-27 Important Updates on Mjolnir Maintenance and System Changes](../2024-03-27-important-updates-on-mjolnir-maintenance-and-system-changes/)</li>
+</ul>
+      <section class="related">
+        <h2>Related</h2>
+        <div class="card-grid compact"><a class="card" href="../../news-announcements/current-announcements/"><span>News &amp; Announcements</span><strong>Current announcements</strong><p>Current announcements should contain only active user-facing notices.</p></a><a class="card" href="../../news-announcements/release-notes/"><span>News &amp; Announcements</span><strong>Release notes</strong><p>Release notes summarize documentation, policy, software, hardware, queue, and storage changes.</p></a><a class="card" href="../../news-announcements/archive-index/"><span>News &amp; Announcements</span><strong>Historical archive</strong><p>Historical maintenance emails, presentations, migration notices, and dated announcements are preserved here for traceability.</p></a><a class="card" href="../../news-announcements/2024-04-04-cehall-section-meeting/"><span>News &amp; Announcements</span><strong>2024-04-04 CEHall Section Meeting</strong><p>Presentation archive item from Freshdesk.</p></a></div>
+      </section>
+    </article>
+    </main>
+  </div>
+</body>
+</html>

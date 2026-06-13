@@ -1,0 +1,8 @@
+[
+  {
+    "name": "Mjolnir cluster",
+    "type": "HPC cluster",
+    "source": "Main website and Freshdesk Hardware",
+    "status": "needs detailed inventory migration"
+  }
+]

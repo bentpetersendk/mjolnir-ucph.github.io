@@ -1,0 +1,548 @@
+[
+  {
+    "source": "Freshdesk: About Mjølnir",
+    "destination": "getting-started/what-is-mjolnir/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: What is Mjolnir?",
+    "destination": "getting-started/what-is-mjolnir/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: Home and About",
+    "destination": "getting-started/what-is-mjolnir/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: New user request",
+    "destination": "getting-started/who-can-use-mjolnir/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: PI area",
+    "destination": "getting-started/who-can-use-mjolnir/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: New user request",
+    "destination": "getting-started/new-user-checklist/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "getting-started/new-user-checklist/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Submitting jobs",
+    "destination": "getting-started/first-job/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "getting-started/login-vs-compute-nodes/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Policies: Login node policy",
+    "destination": "getting-started/login-vs-compute-nodes/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: New user request",
+    "destination": "accounts-access/request-access/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: New user request",
+    "destination": "accounts-access/request-access/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "accounts-access/vpn-ssh-access/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: VPN access and login",
+    "destination": "accounts-access/vpn-ssh-access/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: SSH shortcut",
+    "destination": "accounts-access/ssh-shortcuts-keys/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: SSH Key connection to mjolnirgate",
+    "destination": "accounts-access/ssh-shortcuts-keys/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Connect personal GitHub account to Mjolnir",
+    "destination": "accounts-access/ssh-shortcuts-keys/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Add/change primary email and change communication preference",
+    "destination": "accounts-access/email-preferences/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Add/change primary email and change communication preference",
+    "destination": "accounts-access/email-preferences/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Personal project folder",
+    "destination": "storage/project-folders/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Project/data folders",
+    "destination": "storage/project-folders/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: FileZilla and PuTTY",
+    "destination": "storage/data-transfer/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Using the filetransfer QoS for Data Transfers",
+    "destination": "storage/data-transfer/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Snapshot backup",
+    "destination": "storage/backup-snapshots/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Backup",
+    "destination": "storage/backup-snapshots/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk archive: Mjolnir1 migration and storage cost emails",
+    "destination": "storage/storage-policy/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Submitting jobs",
+    "destination": "slurm/slurm-basics/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Monitoring Jobs",
+    "destination": "slurm/slurm-basics/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Normal QoS",
+    "destination": "slurm/partitions-qos-fairshare/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: CPU/GPU/Teaching partitions",
+    "destination": "slurm/partitions-qos-fairshare/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk archive: QoS & Partition Limits",
+    "destination": "slurm/partitions-qos-fairshare/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: Queue waiting times",
+    "destination": "slurm/queue-waiting-times/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: Memory allocation guide",
+    "destination": "slurm/memory-allocation/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk archive: 2026 - 05 - 19 - New low-priority lazyqueue available on Mjolnir",
+    "destination": "slurm/lazyqueue/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Submitting jobs",
+    "destination": "job-submission/submitting-jobs/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Submitting jobs",
+    "destination": "job-submission/interactive-jobs/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Submitting jobs",
+    "destination": "job-submission/job-arrays/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: Slurm examples library",
+    "destination": "job-submission/job-templates/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Monitoring Jobs",
+    "destination": "monitoring-jobs/monitoring-jobs/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Canceling Jobs",
+    "destination": "monitoring-jobs/canceling-jobs/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: Current utilization",
+    "destination": "monitoring-jobs/cluster-utilization/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: Job statistics",
+    "destination": "monitoring-jobs/cluster-utilization/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Software",
+    "destination": "software/modules-conda/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: Software",
+    "destination": "software/modules-conda/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: Bioinformatics software catalog",
+    "destination": "software/software-catalog/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: New software request",
+    "destination": "software/request-software/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: New software request",
+    "destination": "software/request-software/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: BioRender account for CEH members",
+    "destination": "software/biorender/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Available databases",
+    "destination": "databases/database-overview/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: Databases",
+    "destination": "databases/database-overview/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Request a new database",
+    "destination": "databases/request-database/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Request access to shared databases as a non-mjolnir user",
+    "destination": "databases/shared-database-access/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk archive: Globe-wide Database Repository",
+    "destination": "databases/shared-database-access/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: Database catalog",
+    "destination": "databases/database-catalog/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Using the GPU partition for GPU-Intensive Jobs",
+    "destination": "gpu-computing/gpu-overview/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: GPU usage guide",
+    "destination": "gpu-computing/gpu-job-template/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: GPU usage guide",
+    "destination": "gpu-computing/gpu-troubleshooting/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "policies/login-node-policy/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "policies/support-scope/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Discord server",
+    "destination": "policies/support-scope/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Disruptions",
+    "destination": "policies/maintenance-policy/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: Disruptions",
+    "destination": "policies/maintenance-policy/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk archive: maintenance emails",
+    "destination": "policies/maintenance-policy/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "troubleshooting/cannot-login/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Audit missing topic: Queue waiting times",
+    "destination": "troubleshooting/job-pending/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Monitoring Jobs",
+    "destination": "troubleshooting/job-failed/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: perl: warning: Setting locale failed error",
+    "destination": "troubleshooting/perl-locale-warning/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: New user request",
+    "destination": "faq/accounts-faq/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: VPN access and login to Mjolnir",
+    "destination": "faq/accounts-faq/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Monitoring Jobs",
+    "destination": "faq/slurm-faq/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "ReadTheDocs: Canceling Jobs",
+    "destination": "faq/slurm-faq/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Snapshot backup",
+    "destination": "faq/storage-software-faq/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: New software request",
+    "destination": "faq/storage-software-faq/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Main website: PI area",
+    "destination": "administration/pi-responsibilities/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Users category",
+    "destination": "administration/user-administration/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Architecture: Governance",
+    "destination": "administration/content-governance/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk archives",
+    "destination": "news-announcements/current-announcements/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Migration strategy: News & Announcements",
+    "destination": "news-announcements/release-notes/",
+    "status": "current",
+    "action": "merge"
+  },
+  {
+    "source": "Freshdesk: Mjolnir Archives: Presentations & Emails",
+    "destination": "news-announcements/archive-index/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2024-04-04-cehall-section-meeting/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2024-03-27-important-updates-on-mjolnir-maintenance-and-system-changes/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2024-04-11-reminder-important-updates-on-mjolnir-maintenance-and-system-changes/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2024-06-27-summer-vacation-notice-and-support-ticket-information/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2024-07-04-scheduled-maintenance-on-mjolnir/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2025-01-15-storage-cost-and-closing-of-mjolnir1/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2025-02-14-data-migration-and-storage-transition-updates/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2025-02-24-accelerating-data-migration-from-mjolnir1/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2025-02-28-scheduled-maintenance-and-important-changes/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2025-03-03-qos-and-partition-limits/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2025-05-24-software-location-system-expansion-and-storage-reporting/",
+    "status": "archive",
+    "action": "archive"
+  },
+  {
+    "source": "Freshdesk archive",
+    "destination": "news-announcements/2026-05-19-new-low-priority-lazyqueue/",
+    "status": "archive",
+    "action": "archive"
+  }
+]
